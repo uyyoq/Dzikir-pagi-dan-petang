@@ -1,5 +1,5 @@
 {
-  "name": "movie-app",
+  "name": "crud-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,9 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.7.1",
     "next": "10.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.12.2",
+    "react-scroll": "^1.8.3",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
