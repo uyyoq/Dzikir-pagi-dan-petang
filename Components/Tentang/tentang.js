@@ -3,7 +3,7 @@ const Tentang = ({id}) => {
     <div id={id} className="pt-20 pb-24">
       <div className="flex justify-between">
         <div className="ml-14 relative w-1/2">
-          <p className="text-5xl">Mudahkan <br /> Pencatatan Agenda <br /> Harianmu</p>
+          <p className="text-4xl">Mudahkan <br /> Pencatatan Agenda <br /> Harianmu</p>
           <p className="py-3">Dengan "to do" app,semua yang akan anda kerjakan <br /> akan selalu ada dalam genggaman smartphone anda,<br />
            Tingkatkan produktivitas harian anda sekarang
            </p>

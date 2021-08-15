@@ -38,7 +38,7 @@ const Navbar = () => {
 
             <Link
               activeClass="active"
-              to="section1"
+              to="section3"
               spy={true}
               smooth={true}
               offset={-70}
@@ -50,7 +50,7 @@ const Navbar = () => {
 
             <Link
               activeClass="active"
-              to="section5"
+              to="section4"
               spy={true}
               smooth={true}
               offset={-70}
