@@ -9,8 +9,8 @@ const List = () => {
         <p className="flex mx-auto text-center mb-14 pt-20 text-2xl w-72 text-gray-500 font-bold leading-9">
           Kenapa Menggunakan TO DO App?{" "}
         </p>
-        <div className="flex flex-wrap w-full mx-auto justify-center lg:justify-between text-gray-700">
-          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+        <div className="flex flex-wrap w-full mx-auto justify-center text-gray-700">
+          <div className="w-full lg:w-4/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
             <div>
               <img src="/icon/trophy.svg" className="w-16 h-auto" />
             </div>
@@ -22,7 +22,7 @@ const List = () => {
               membantu kehidupan anda
             </p>
           </div>
-          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+          <div className="w-full lg:w-4/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
             <div>
               <img src="/icon/paint-palette.svg" className="w-16 h-auto" />
             </div>
@@ -33,7 +33,7 @@ const List = () => {
               dalam mengorganisir kegiatan anda sehari-hari.
             </p>
           </div>
-          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+          <div className="w-full lg:w-4/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
             <div>
               <img src="/icon/map.svg" className="w-16 h-auto" />
             </div>
@@ -45,7 +45,7 @@ const List = () => {
               belahan dunia manapun.
             </p>
           </div>
-          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+          <div className="w-full lg:w-4/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
             <div>
               <img src="/icon/headphones.svg" className="w-16 h-auto" />
             </div>
