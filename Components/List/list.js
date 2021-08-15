@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 
 const bgHome = "/bg-cover/home-bg.png";
+const everest = "/bg-cover/everest.svg"
 
 const List = () => {
   return (
