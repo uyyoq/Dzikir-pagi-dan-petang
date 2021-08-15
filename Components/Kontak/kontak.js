@@ -118,7 +118,11 @@ const Kontak = () => {
         </div>
 
         <div className="flex bg-maps rounded shadow-xl float-right w-5/12 h-4/6 left-96 ml-72 z-10 absolute">
-          <p></p>
+          <div>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div>
         </div>
       </div>
 

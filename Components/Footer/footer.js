@@ -41,9 +41,7 @@ const Footer = (props) => {
           </div>
         </div>
       </div>
-
-      <div className="m-6 w-full top-0 right-0 inset-x-auto border-b-2  mx-auto"></div>
-
+      
       <div className="flex justify-between mx-auto my-auto px-14 py-5">
         <div className="text-xs">
           <p>Amazing To Do App</p>

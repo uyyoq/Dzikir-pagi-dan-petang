@@ -14,15 +14,15 @@ const TodoForm = ({ addTodo }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="" onSubmit={handleSubmit}>
       <input
         type="text"
-        className="appearance-none rounded border-4 border-red-800 py-4 px-3 text-sm focus:outline-none w-"
+        className="appearance-none rounded border py-4 px-4 m-1 text-sm focus:outline-none w-7/12"
         value={value}
-        placeholder="Add Todo..."
+        placeholder="Tambah Todo..."
         onChange={e => setValue(e.target.value)}
       />
-        <button className="py-4 px-2 m-1 hover:bg-blue-600 bg-blue-500 text-white rounded">Tambah kegiatan</button>
+        <button className="py-4 px-2 m-1 bg-blue-500 text-white rounded">Tambah kegiatan</button>
     </form>
   );
 };

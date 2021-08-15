@@ -43,7 +43,7 @@ const TodoApp = (props) => {
 
   return (
     <div className="flex justify-center mx-auto">
-      <div className="todo-list">
+      <div className="">
         {todos.map((todo, index) => (
           <Todo
             key={index}
@@ -57,7 +57,7 @@ const TodoApp = (props) => {
       </div>
 
       <div className="flex flex-col mx-8">
-        <p className="px-4 font-bold text-white">Jumlah Kegiatan {totalTodo} </p>
+        <p className="px-4 font-bold text-gray-100">Jumlah Kegiatan {totalTodo} </p>
         {/* <p>{randomTodo}</p> */}
         <button
           className="py-4 px-4 m-2 bg-blue-500 hover:bg-blue-600 text-white rounded"
