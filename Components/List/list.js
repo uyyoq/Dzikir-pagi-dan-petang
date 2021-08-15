@@ -5,7 +5,7 @@ const bgHome = "/bg-cover/home-bg.png";
 const List = () => {
   return (
     <Element name="todoApp">
-      <div className="bg-home flex flex-col justify-center mx-auto">
+      <div className="bg-home flex flex-col justify-center mx-auto pb-28">
         <p className="flex mx-auto text-center mb-14 pt-20 text-2xl w-72 text-gray-500 font-bold leading-9">
           Kenapa Menggunakan TO DO App?{" "}
         </p>
@@ -59,7 +59,7 @@ const List = () => {
         <div className="flex justify-center mt-10 mb-24">
           <button
             type="submit"
-            className="focus:bg-blue-700 mt-1 bg-blue-500 text-white font-bold rounded py-3 px-12 text-sm focus:outline-none"
+            className="focus:bg-blue-700 bg-blue-500 text-white font-bold rounded py-3 px-12 text-sm focus:outline-none"
           >
             Hubungi Kami
           </button>
