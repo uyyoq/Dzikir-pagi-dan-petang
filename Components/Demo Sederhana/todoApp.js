@@ -29,14 +29,6 @@ const TodoApp = () => {
 
   const totalTodo = todos.length
 
-  const handleClick = () => {
-    ({
-      setClick: true,
-      select: todos[Math.floor(Math.random() * 
-        this.state.notes.length)]
-    })
-
-  }
 
   return (
     <div className="flex justify-center mx-auto">
