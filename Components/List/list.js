@@ -1,54 +1,80 @@
-const List = ({id}) => {
+import { Element } from "react-scroll";
+
+const bgHome = "/bg-cover/home-bg.png";
+
+const List = () => {
   return (
-    <div id={id} className="">
-      <p className="text-center mb-14 pt-20 text-2xl">Kenapa Menggunakan <br /> TO DO App? </p>
-      <div className="flex flex-wrap w-11/12 mx-auto justify-center">
-        <div className="bg-gray-100 justify-center py-10 px-10 m-14 shadow-md rounded">
-          <div>
-            <img src="/trophy.svg" className="w-16 h-auto"/>
+    <Element name="todoApp">
+      <div className="bg-home flex flex-col justify-center mx-auto">
+        <p className="flex mx-auto text-center mb-14 pt-20 text-2xl w-72 text-gray-500 font-bold leading-9">
+          Kenapa Menggunakan TO DO App?{" "}
+        </p>
+        <div className="flex flex-wrap w-full mx-auto justify-center lg:justify-between text-gray-700">
+          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+            <div>
+              <img src="/icon/trophy.svg" className="w-16 h-auto" />
+            </div>
+            <p className="font-bold py-4 text-lg">Mudah Digunakan</p>
+            <p className="my-2 text-sm leading-7 text-gray-500">
+              Dirancang dengan berdasarkan pengalaman yang ada. Kami menyajikan
+              penggunaan aplikasi yang friendly dan sangan mudah digunakan.Cukup
+              tulis, hapus, edit, apa yang anda inginkan dan dengan sekejab akan
+              membantu kehidupan anda
+            </p>
           </div>
-          <p className="font-bold py-4 text-lg">Mudah Digunakan.</p>
-          <p className="my-2 text-sm">Dirancang dengan berdasarkan pengalaman <br />
-           yang ada. Kami menyajikan penggunaan <br /> aplikasi yang friendly dan sangan mudah <br />
-           digunakan.Cukup tulis, hapus, edit, apa yang <br /> anda inginkan dan dengan sekejab akan <br />
-           membantu kehidupan anda</p>
-        </div>
-        <div className="bg-gray-100 justify-center py-10 px-10 m-14 shadow-md rounded">
-          <div>
-            <img src="/paint-palette.svg" className="w-16 h-auto" />
+          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+            <div>
+              <img src="/icon/paint-palette.svg" className="w-16 h-auto" />
+            </div>
+            <p className="font-bold py-4 text-lg">Desain Menarik</p>
+            <p className="my-2 text-sm leading-7 text-gray-500">
+              Anda tidak perlu khawatir dengan kejenuhan menggunakan aplikasi
+              ini. Tampilan yang menarik akan terus membuat anda jatuh cinta
+              dalam mengorganisir kegiatan anda sehari-hari.
+            </p>
           </div>
-          <p className="font-bold py-4 text-lg">Desain Menarik.</p>
-          <p className="my-2 text-sm">Anda tidak perlu khawatir dengan kejenuhan <br />
-          menggunakan aplikasi ini. Tampilan yang <br /> menarik akan terus membuat anda jatuh cinta <br />
-          dalam mengorganisir kegiatan anda sehari-hari.</p>
-        </div>
-        <div className="bg-gray-100 justify-center py-10 px-10 m-14 shadow-md rounded">
-          <div>
-            <img src="/map.svg" className="w-16 h-auto" />
+          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+            <div>
+              <img src="/icon/map.svg" className="w-16 h-auto" />
+            </div>
+            <p className="font-bold py-4 text-lg">
+              Tersedia Untuk Seluruh Dunia
+            </p>
+            <p className="my-2 text-sm leading-7 text-gray-500">
+              Aplikasi kami dapat diakses di manapun,dan kapanpun anda berada di
+              belahan dunia manapun.
+            </p>
           </div>
-          <p className="font-bold py-4 text-lg">Tersedia Untuk Seluruh Dunia.</p>
-          <p className="my-2 text-sm">Aplikasi kami dapat diakses di manapun,dan <br />
-          kapanpun anda berada di belahan dunia <br />manapun.</p>
-        </div>
-        <div className="bg-gray-100 justify-center py-10 px-10 m-14 shadow-md rounded">
-          <div>
-            <img src="/magic-hat.svg" className="w-16 h-auto" />
+          <div className="w-full lg:w-5/12 bg-white justify-center py-10 px-10 m-14 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+            <div>
+              <img src="/icon/headphones.svg" className="w-16 h-auto" />
+            </div>
+            <p className="font-bold py-4 text-lg">Customer Support Super</p>
+            <p className="my-2 text-sm leading-7 text-gray-500">
+              Kendala apapun itu, tim customer support kami akan senantiasa
+              membantu anda dengan pelayanan yang ramah dan bersahabat.{" "}
+            </p>
           </div>
-          <p className="font-bold py-4 text-lg">Customer Support Super.</p>
-          <p className="my-2 text-sm">Kendala apapun itu, tim customer support kami <br />
-          akan senantiasa membantu anda dengan <br /> pelayanan yang ramah dan bersahabat. </p>
         </div>
-      </div>
-      <div className="flex justify-center my-16">
-        <button
-          type="submit"
-          className="focus:bg-blue-700 mt-1 bg-blue-500 text-white font-bold rounded py-5 px-8 text-sm focus:outline-none">Hubungi Kami
-        </button>
-      </div>
+        <div className="flex justify-center mt-10 mb-24">
+          <button
+            type="submit"
+            className="focus:bg-blue-700 mt-1 bg-blue-500 text-white font-bold rounded py-3 px-12 text-sm focus:outline-none"
+          >
+            Hubungi Kami
+          </button>
+        </div>
 
-
-    </div>
-  )
-}
+        <style jsx>{`
+          .bg-home {
+            background-image: url(${bgHome});
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        `}</style>
+      </div>
+    </Element>
+  );
+};
 
 export default List;
