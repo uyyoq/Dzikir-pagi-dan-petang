@@ -18,8 +18,13 @@ const Home = () => {
       <List />
       <DemoSederhana />
       <Testimoni />
-      <Kontak />
-      <Footer />
+      <Kontak 
+      />
+      <Footer
+        facebook="/sosial media/facebook.svg"
+        instagram="/sosial media/instagram.svg"
+        twitter="/sosial media/twitter.svg"
+      />
 
       <style jsx>{`
         .bg-line {
