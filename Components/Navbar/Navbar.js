@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 function Listmenu({ children }) {
   return (
     <React.Fragment>
-      <li className="text-sm font-bold uppercase text-gray-50 hover:text-gray-300 cursor-pointer select-none">
+      <li className="text-sm font-bold uppercase text-gray-50 hover:text-gray-200 cursor-pointer select-none">
         {children}
       </li>
     </React.Fragment>

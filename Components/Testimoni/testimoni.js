@@ -17,8 +17,9 @@ const Testimoni = () => {
         <p className="text-3xl text-center">Testimoni Pengguna</p>
         <Swiper
           className="flex"
-          spaceBetween={23}
+          spaceBetween={2}
           slidesPerView={2}
+          pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
         >
           <div className="flex flex-wrap w-11/12 mx-auto justify-center">
