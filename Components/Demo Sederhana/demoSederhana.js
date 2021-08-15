@@ -7,21 +7,6 @@ const DemoSederhana = ({id}) => {
       <div className="flex flex-col justify-center m-8">
         <p className="text-2xl font-medium mb-5 text-white text-center">Demo Sederhana</p>
       </div>
-
-      {/* <div>
-        <div className="justify-center my-0 mx-auto">
-          <form className="mb-4">
-            <input
-              type='text'
-              className='rounded outline-none shadow border md:px-4 font-Yusei Magic md:py-1'
-            />
-            <button className='cursor-pointer bg-red-400 hover:bg-blue-300 focus:bg-blue-300 focus:outline-none capitalize mx-1 md:mx-3 px-3 py-1 rounded'>-</button>
-          </form>
-
-        </div>
-
-      </div> */}
- 
      <TodoApp />
     </div>
   )

@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import ContactSchema from "../Kontak/__contact_schema";
 
-const Kontak = ({id}) => {
+const Kontak = (props) => {
   const {
     register,
     formState: { errors },
@@ -18,7 +18,7 @@ const Kontak = ({id}) => {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <div id={id} className="flex my-16 p-20 bg-gray-400 relative rounded shadow-xl w-9/12 justify-between mx-auto">
+    <div className="flex my-16 p-20 bg-gray-400 relative rounded shadow-xl w-9/12 justify-between mx-auto">
       <div className="">
         <div className="flex flex-col">
           <p className="text-white text-3xl">Tertarik Untuk Mencoba?<br /> Kirimkan Kami Pesan</p>
@@ -30,7 +30,7 @@ const Kontak = ({id}) => {
           <form className="flex">
             <div className="flex flex-col mr-16">
               <div className="flex flex-col my-3">
-                <label className="py-2 text-sm text-white font-bold"> NAMA LENGKAP </label>
+                <label className="py-2 text-sm text-white font-bold"> {props.nama} </label>
                 <input
                   className="appearance-none rounded py-4 px-3 text-sm focus:outline-none w-full"
                   type="text"
@@ -46,7 +46,7 @@ const Kontak = ({id}) => {
               </div>
 
               <div className="flex flex-col my-3">
-                <label className="py-2 text-sm text-white font-bold"> EMAIL </label>
+                <label className="py-2 text-sm text-white font-bold"> {props.email} </label>
                 <input
                   className="appearance-none rounded py-4 px-3 text-sm focus:outline-none w-full"
                   type="email"
@@ -67,8 +67,7 @@ const Kontak = ({id}) => {
             <div className="flex flex-col">
               <div className="flex flex-col my-3">
                 <label className="py-2 text-sm text-white  font-bold" htmlFor="">
-                  {" "}
-            PESAN ANDA{" "}
+                {" "}{props.pesan}{" "}
                 </label>
                 <textarea
                   className="appearance-none rounded py-4 px-3 text-sm focus:outline-none w-full"

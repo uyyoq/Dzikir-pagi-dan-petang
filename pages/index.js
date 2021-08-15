@@ -14,8 +14,12 @@ const Home = () => {
       <List id="section2" />
       <DemoSederhana id="section3" />
       <Testimoni id="section4" />
-      <Kontak id="section5" />
-      <Footer/>
+      <Kontak nama="NAMA LENGKAP" email="ALAMAT EMAIL" pesan="PESAN ANDA" id="section5" />
+      <Footer 
+      facebook="/sosial media/facebook.svg"
+      instagram="/sosial media/instagram.svg"
+      twitter="/sosial media/twitter.svg"
+      />
     </div>
   )
 }

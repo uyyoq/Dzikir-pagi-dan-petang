@@ -1,19 +1,19 @@
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-blue-500 text-white">
       <div className="flex my-20 justify-center text-sm">
         <div className="flex">
-          <div className="m-5">
+          <div className="m-2">
             <img src="/profile.svg" className="w-12 h-auto mx-auto cursor-pointer" /><img />
           </div>
-          <div className="mx-5 text-gray-700 text-sm">
-            <p className="my-5">Amazing To Do App adalah perusahaan yang <br />
-          bergerak dalam pengembangan aplikasi to do <br />
-          list untuk memudahkan penggunaan dalam <br />
+          <div className="mx-5 text-sm w-72">
+            <p className="my-5">Amazing To Do App adalah perusahaan yang 
+          bergerak dalam pengembangan aplikasi to do 
+          list untuk memudahkan penggunaan dalam 
           mengatur kebutuhan catatan harian.</p>
-            <p>Pengalaman kami didasari oleh research dan <br />
-          beberapa fakta lapangan yang menjadikan <br />
-          produk kami lebih unggul dibandingkan produk <br />
+            <p>Pengalaman kami didasari oleh research dan 
+          beberapa fakta lapangan yang menjadikan 
+          produk kami lebih unggul dibandingkan produk 
           yang lain.</p>
           </div>
         </div>
@@ -43,19 +43,28 @@ const Footer = () => {
       <div className="m-6 w-full top-0 right-0 inset-x-auto border-b-2  mx-auto"></div>
 
       <div className="flex justify-between mx-auto my-auto px-14 py-5">
-        <div className="text-xs text-gray-700">
+        <div className="text-xs">
           <p>Amazing To Do App</p>
           <p className="my-2">Copyright © 2020</p>
         </div>
         <div className="flex">
           <a>
-            <img src="/sosial media/facebook.svg" className="w-8 h-auto mx-auto cursor-pointer" />
+            <img
+              src={props.facebook}
+              className="w-8 h-auto mx-auto cursor-pointer"
+              alt="facebook"
+            />
           </a>
-          <a className="mx-3">
-            <img src="/sosial media/instagram.svg" className="w-8 h-auto mx-auto cursor-pointer" />
+          <a
+            className="mx-3">
+              <img
+              src={props.instagram}
+              className="w-8 h-auto mx-auto cursor-pointer" />
           </a>
           <a>
-            <img src="/sosial media/twitter.svg" className="w-8 h-auto mx-auto cursor-pointer" />
+            <img
+            src={props.twitter}
+            className="w-8 h-auto mx-auto cursor-pointer" />
           </a>
         </div>
       </div>
