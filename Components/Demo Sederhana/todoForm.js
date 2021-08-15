@@ -22,7 +22,7 @@ const TodoForm = ({ addTodo }) => {
         placeholder="Add Todo..."
         onChange={e => setValue(e.target.value)}
       />
-        <button className="py-2 px-4 m-2 bg-blue-500 text-white rounded">Tambah kegiatan</button>
+        <button className="py-4 px-2 m-1 bg-blue-500 text-white rounded">Tambah kegiatan</button>
     </form>
   );
 };

@@ -3,8 +3,6 @@ import Todo from "./todo";
 import TodoForm from "./todoForm";
 
 const TodoApp = (props) => {
-  const [select, setSelect] = useState(null)
-  const [click, setClick] = useState(false)
   const [todos, setTodos] = useState([
     { text: "Bersepeda pagi", isCompleted: false },
     { text: "Menyiapkan bekal anak", isCompleted: false },
