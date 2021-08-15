@@ -117,11 +117,13 @@ const Kontak = () => {
           </div>
         </div>
 
-        <div className="flex bg-maps rounded shadow-xl float-right w-5/12 h-4/6 left-96 ml-72 z-10 absolute">
-          <div>
-            <p></p>
-            <p></p>
-            <p></p>
+        <div className="flex bg-maps rounded-3xl shadow-xl float-right w-5/12 h-4/6 left-96 ml-72 z-10 absolute">
+          <div className="text-gray-100 justify-end m-10 flex flex-col">
+            <p className="font-bold">Kelapa Gading, Jakarta Utara</p>
+            <p className="w-8/12 my-3 text-sm">jl.Rima Husada No.3, Kecamatan
+              Jeruk Bali, Jakarta Utara 685792
+            </p>
+            <p className="text-xs">085789666584</p>
           </div>
         </div>
       </div>

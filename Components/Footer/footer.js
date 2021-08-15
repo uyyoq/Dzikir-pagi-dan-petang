@@ -3,7 +3,7 @@ const Footer = (props) => {
     <div className="w-full bg-blue-400 pt-14 text-white">
       <div className="flex my-20 justify-center text-sm">
         <div className="flex">
-          <div className="flex my-2">
+          <div className="flex my-5 mx-5">
             <div className="text-white rounded-full bg-red-400 w-12 h-12 p-3 flex justify-center items-center font-bold text-xl">
               A
               </div>
