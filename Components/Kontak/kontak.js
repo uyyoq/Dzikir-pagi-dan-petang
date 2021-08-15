@@ -4,6 +4,8 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import ContactSchema from "../Kontak/__contact_schema";
 import { Element } from "react-scroll";
 
+const bgMaps = "/bg-cover/maps.svg"
+
 const Kontak = () => {
   const {
     register,
@@ -19,7 +21,7 @@ const Kontak = () => {
 
   return (
     <Element name="kontak">
-      <div className="flex my-16 p-20 bg-gray-400 relative rounded shadow-xl w-9/12 justify-between mx-auto">
+      <div className="flex my-16 p-20 bg-gradient-to-r from-indigo-400 via-blue-400  to-purple-600 relative rounded shadow-xl w-9/12 justify-between mx-auto">
         <div className="">
           <div className="flex flex-col">
             <p className="text-white text-3xl">
@@ -105,7 +107,7 @@ const Kontak = () => {
                   <button
                     onClick={handleSubmit(onSubmit)}
                     type="submit"
-                    className="focus:bg-blue-700 mt-1 bg-blue-500 text-white font-bold rounded py-5 px-8 text-sm focus:outline-none"
+                    className="focus:bg-blue-700 mt-1 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded py-5 px-8 text-sm focus:outline-none"
                   >
                     Kirim
                   </button>
@@ -115,8 +117,19 @@ const Kontak = () => {
           </div>
         </div>
 
-        <div className="flex bg-blue-300 rounded shadow-xl float-right w-5/12 h-4/6 left-96 ml-72 z-10 absolute"></div>
+        <div className="flex bg-maps rounded shadow-xl float-right w-5/12 h-4/6 left-96 ml-72 z-10 absolute">
+          <p></p>
+        </div>
       </div>
+
+      <style jsx>{`
+          .bg-maps {
+            background-image: url(${bgMaps});
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        `}</style>
+
     </Element>
   );
 };

@@ -27,7 +27,7 @@ const Testimoni = () => {
               <div className="justify-center py-10 px-10 m-20 shadow-xl rounded">
                 <div className="my-8">
                   <img
-                    src="/photos/nadim.jpg"
+                    src="/photos/dan.jpg"
                     className="w-16 h-auto shadow-2xl rounded-full"
                   />
                 </div>
@@ -37,8 +37,8 @@ const Testimoni = () => {
                   untuk selalu lebih produktif dengan bantuan app ini."
                 </p>
                 <div>
-                  <p className="mt-5 text-blue-700">Benrns Sturaro</p>
-                  <p className="m-1 text-bold">Jakarta</p>
+                  <p className="mt-5 text-blue-700">dan abramov</p>
+                  <p className="m-1 text-bold">Bandung</p>
                 </div>
               </div>
             </SwiperSlide>
@@ -47,7 +47,7 @@ const Testimoni = () => {
               <div className="justify-center py-10 px-10 m-14 shadow-xl rounded">
                 <div className="my-8">
                   <img
-                    src="/photos/wiliam.jpeg"
+                    src="/photos/elan.jpeg"
                     className="w-16 h-auto shadow-2xl rounded-full"
                   />
                 </div>
@@ -59,8 +59,8 @@ const Testimoni = () => {
                   meskipun anda tidak pernah menggunakan
                   <br /> apilikasi seperti ini sebelumnya."
                 </p>
-                <p className="mt-5 text-blue-700">Budi Santoso</p>
-                <p className="m-1 text-bold">Surabaya</p>
+                <p className="mt-5 text-blue-700">elon musk</p>
+                <p className="m-1 text-bold">Semarang</p>
               </div>
             </SwiperSlide>
 
