@@ -19,6 +19,22 @@ module.exports = {
       "7xl": "5rem",
     },
 
+    fontFamily: {
+      sans: ["Open Sans", "Lato", "Arial", "sans-serif"],
+      mono: ["SFMono-Regular", "Menlo"],
+      CodaCaption: ["Coda Caption"],
+      Staatliches: ["Staatliches"],
+      Montserrat: ["Montserrat"],
+      Italianno: ["Italianno"],
+      MarckScript: ["Marck Script"],
+      lato: ["Lato"],
+      SecularOne: ["Secular One"],
+      courgette: ["Courgette"],
+      RobotoMono: ["Roboto Mono"],
+      display: ["Oswald"],
+      body: ["Open Sans"],
+    },
+
     zIndex: {
       0: 0,
       10: 10,
