@@ -7,10 +7,14 @@ function Navbar() {
     <nav className="fixed mx-auto bg-white top-0 right-0 inset-x-auto z-10 w-full py-4">
       <div className="flex justify-between mx-auto my-auto px-8 lg:px-14 w-full ">
         <div className="flex lg:mx-0">
-          <img
-            src="/zikrr.svg"
-            className="w-16 md:w-16 h-auto mx-auto cursor-pointer"
-          />
+          <Link href="/">
+            <a>
+              <img
+                src="/zikrr.svg"
+                className="w-16 md:w-20 h-auto mx-auto cursor-pointer"
+              />
+            </a>
+          </Link>
         </div>
         <div className="flex my-auto">
           <div className="flex relative">
@@ -20,7 +24,7 @@ function Navbar() {
                 menuCloseButton={
                   <img src="/cancel.svg" className="w-auto h-4" />
                 }
-                changeMenuOn="900px"
+                changeMenuOn="700px"
                 largeMenuClassName="large-menu"
                 smallMenuClassName="small-menu"
                 menu={
@@ -36,14 +40,14 @@ function Navbar() {
                       <li className="px-4">
                         <Link href="/petang">
                           <a className="" href="">
-                            <img src="/sunrise.svg" className="w-auto h-10" />
+                            <img src="/sunrise.svg" className="w-auto h-7" />
                           </a>
                         </Link>
                       </li>
                       <li className="">
                         <Link href="/sholat">
                           <a className="" href="">
-                            <img src="/cloud.svg" className="w-auto h-8" />
+                            <img src="/cloud.svg" className="w-auto h-6" />
                           </a>
                         </Link>
                       </li>
@@ -51,7 +55,7 @@ function Navbar() {
                       <li className="px-4">
                         <Link href="/tidur">
                           <a classname="" href="">
-                            <img src="/sleep.svg" className="w-auto h-8" />
+                            <img src="/sleep.svg" className="w-auto h-7" />
                           </a>
                         </Link>
                       </li>
