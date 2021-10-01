@@ -62,7 +62,7 @@ const SwiperSholat = () => {
 
           <SwiperSlide>
             <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-SecularOne font-bold font-xl text-gray-800 pb-3 uppercase">
+              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
                 membaca Ayat kursi
               </p>
               <p className="my-2 text-xl md:text-2xl">
@@ -119,7 +119,7 @@ const SwiperSholat = () => {
 
           <SwiperSlide>
             <div className="justify-center w-full lg:w-8/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-SecularOne font-bold font-xl text-gray-800 pb-3 uppercase">
+              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
                 Membaca surat Al-Ikhlas, Al-Falaq,dan An-Naas
               </p>
               <div>

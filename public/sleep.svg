@@ -21,8 +21,31 @@
    height="853.33331"><metadata
    id="metadata61"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
-   id="defs59" /><sodipodi:namedview
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+   id="defs59">
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -31,16 +54,16 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="975"
-   inkscape:window-height="480"
+   inkscape:window-width="1324"
+   inkscape:window-height="740"
    id="namedview57"
    showgrid="false"
    inkscape:zoom="0.4609375"
-   inkscape:cx="-83.920904"
-   inkscape:cy="597.33333"
+   inkscape:cx="67.943503"
+   inkscape:cy="336.99435"
    inkscape:window-x="36"
    inkscape:window-y="0"
-   inkscape:window-maximized="0"
+   inkscape:window-maximized="1"
    inkscape:current-layer="Capa_1"
    scale-x="0.6"
    fit-margin-top="0"
@@ -48,131 +71,55 @@
    fit-margin-right="0"
    fit-margin-bottom="0" />
 <g
-   id="g6"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-	<g
+   style="fill:#1e3a8a;fill-opacity:1"
    id="g4"
-   style="fill:#1a1a1a">
+   transform="translate(-10)">
 		<path
-   d="m 432.19,337.682 c -25.113,16.787 -54.418,25.66 -84.745,25.66 -84.208,0 -152.715,-68.508 -152.715,-152.715 0,-50.803 25.167,-98.141 67.323,-126.628 l 35.88,-24.248 -43.191,-3.142 C 249.178,56.205 243.545,56 238,56 177.099,56 119.843,79.716 76.78,122.779 33.717,165.842 10,223.099 10,284 10,344.901 33.716,402.157 76.78,445.221 119.844,488.285 177.099,512 238,512 c 49.062,0 95.808,-15.347 135.183,-44.382 38.58,-28.448 66.798,-67.457 81.603,-112.811 l 13.456,-41.224 z M 355.379,443.473 C 321.197,468.678 280.608,482 238,482 128.822,482 40,393.178 40,284 40,183.538 115.215,100.311 212.284,87.662 c -30.286,33.276 -47.554,76.931 -47.554,122.965 0,100.749 81.966,182.715 182.715,182.715 21.519,0 42.612,-3.737 62.486,-10.97 -13.583,23.759 -32.036,44.498 -54.552,61.101 z"
+   inkscape:connector-curvature="0"
+   style="fill:#1e3a8a;fill-opacity:1"
    id="path2"
-   style="fill:#1a1a1a"
-   inkscape:connector-curvature="0" />
+   d="m 432.19,337.682 c -25.113,16.787 -54.418,25.66 -84.745,25.66 -84.208,0 -152.715,-68.508 -152.715,-152.715 0,-50.803 25.167,-98.141 67.323,-126.628 l 35.88,-24.248 -43.191,-3.142 C 249.178,56.205 243.545,56 238,56 177.099,56 119.843,79.716 76.78,122.779 33.717,165.842 10,223.099 10,284 10,344.901 33.716,402.157 76.78,445.221 119.844,488.285 177.099,512 238,512 c 49.062,0 95.808,-15.347 135.183,-44.382 38.58,-28.448 66.798,-67.457 81.603,-112.811 l 13.456,-41.224 z M 355.379,443.473 C 321.197,468.678 280.608,482 238,482 128.822,482 40,393.178 40,284 40,183.538 115.215,100.311 212.284,87.662 c -30.286,33.276 -47.554,76.931 -47.554,122.965 0,100.749 81.966,182.715 182.715,182.715 21.519,0 42.612,-3.737 62.486,-10.97 -13.583,23.759 -32.036,44.498 -54.552,61.101 z" />
 	</g>
-</g>
 <g
-   id="g12"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-	<g
+   style="fill:#1e3a8a;fill-opacity:1"
    id="g10"
-   style="fill:#1a1a1a">
+   transform="translate(-10)">
 		<polygon
-   points="502,124.007 502,94.007 439.463,94.007 495.465,0 393,0 393,30 442.674,30 386.672,124.007 "
+   style="fill:#1e3a8a;fill-opacity:1"
    id="polygon8"
-   style="fill:#1a1a1a" />
+   points="439.463,94.007 495.465,0 393,0 393,30 442.674,30 386.672,124.007 502,124.007 502,94.007 " />
 	</g>
-</g>
 <g
-   id="g18"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-	<g
+   style="fill:#1e3a8a;fill-opacity:1"
    id="g16"
-   style="fill:#1a1a1a">
+   transform="translate(-10)">
 		<polygon
-   points="352.758,186.8 310.526,186.8 353.742,114.257 261.091,114.257 261.091,144.257 300.951,144.257 257.735,216.8 352.758,216.8 "
+   style="fill:#1e3a8a;fill-opacity:1"
    id="polygon14"
-   style="fill:#1a1a1a" />
+   points="353.742,114.257 261.091,114.257 261.091,144.257 300.951,144.257 257.735,216.8 352.758,216.8 352.758,186.8 310.526,186.8 " />
 	</g>
-</g>
 <g
-   id="g24"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-	<g
+   style="fill:#1e3a8a;fill-opacity:1"
    id="g22"
-   style="fill:#1a1a1a">
+   transform="translate(-10)">
 		<polygon
-   points="438.01,314.758 438.01,284.758 409.572,284.758 436.925,238.843 359.51,238.843 359.51,268.843 384.134,268.843 356.781,314.758 "
+   style="fill:#1e3a8a;fill-opacity:1"
    id="polygon20"
-   style="fill:#1a1a1a" />
+   points="409.572,284.758 436.925,238.843 359.51,238.843 359.51,268.843 384.134,268.843 356.781,314.758 438.01,314.758 438.01,284.758 " />
 	</g>
-</g>
-<g
-   id="g26"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g28"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g30"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g32"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g34"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g36"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g38"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g40"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g42"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g44"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g46"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g48"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g50"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g52"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
-<g
-   id="g54"
-   style="fill:#1a1a1a"
-   transform="translate(-10)">
-</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </svg>

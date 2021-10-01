@@ -24,7 +24,7 @@ const SwiperTidur = () => {
         <div className="flex flex-wrap mx-auto justify-center">
           <SwiperSlide>
             <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-SecularOne font-bold font-xl text-gray-800 pb-3 uppercase">
+              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
                 membaca Ayat kursi
               </p>
               <p className="my-2 text-xl md:text-2xl">
@@ -81,7 +81,7 @@ const SwiperTidur = () => {
 
           <SwiperSlide>
             <div className="justify-center w-full lg:w-8/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-SecularOne font-bold font-xl text-gray-800 pb-3 uppercase">
+              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
                 Membaca surat Al-Ikhlas, Al-Falaq,dan An-Naas
               </p>
               <p>
@@ -223,7 +223,7 @@ const SwiperTidur = () => {
 
           <SwiperSlide>
             <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-SecularOne font-bold font-xl text-gray-800 pb-3 uppercase">
+              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
                 Membaca Surat Al Baqarah ayat 285-286
               </p>
               <p className="my-2 text-xl md:text-2xl">
@@ -306,19 +306,19 @@ const SwiperTidur = () => {
                   hamba-hambaMu yang shalih."
                 </p>
               </div>
-            </div>
-            <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded w-10/12 md:w-8/12 mx-auto">
-              <p className="pb-3 font-MarckScript text-base md:text-lg">
-                Faedah:
-              </p>
-              <p className="text-justify font-lato text-xs md:text-sm">
-                Apabila akan tidur, maka hendaklah tempat tidur tersebut
-                dibersihkan karena siapa tahu ada kotoran yang membahayakan di
-                situ, lalu membaca dzikir di atas.
-              </p>
-              <p className="text-xs md:text-sm font-lato py-2">
-                HR. Al-Bukhari no. 6320 dan Muslim no. 2714
-              </p>
+              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded w-11/12 md:w-8/12 mx-auto">
+                <p className="pb-3 font-MarckScript text-base md:text-lg">
+                  Faedah:
+                </p>
+                <p className="text-justify font-lato text-xs md:text-sm">
+                  Apabila akan tidur, maka hendaklah tempat tidur tersebut
+                  dibersihkan karena siapa tahu ada kotoran yang membahayakan di
+                  situ, lalu membaca dzikir di atas.
+                </p>
+                <p className="text-xs md:text-sm font-lato py-2">
+                  HR. Al-Bukhari no. 6320 dan Muslim no. 2714
+                </p>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -460,7 +460,7 @@ const SwiperTidur = () => {
                 <p className="pb-2"> (34x) اَللهُ أَكْبَرُ </p>
               </p>
               <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Subhanallah (33x) Al hamdulillah (33x) Allahu akbar (34 x)
+                Subhanallah (33x), Al hamdulillah (33x), Allahu akbar (34 x)
               </p>
               <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
                 <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">

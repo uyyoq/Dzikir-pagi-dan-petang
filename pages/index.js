@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Dzikir Pagi dan Petang</title>
+        <title>dzikir pagi dan petang</title>
         <link rel="icon" href="/logoo.svg" />
       </Head>
 
@@ -17,32 +17,40 @@ export default function Home() {
         <div className="flex flex-col md:flex-row w-full justify-center items-center mx-auto pt-28 md:pt-32">
           <div className="flex md:flex-wrap mx-auto justify-center md:w-1/2 w-8/12 flex-col md:flex-row text-gray-7">
             <Link href="/pagi">
-              <a className="flex flex-col bg-gray-100 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+              <a className="flex flex-col bg-gray-50 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:bg-gray-200">
                 <img src="/sun.svg" className="w-auto h-8 md:h-10" />
-                <p className="text-center pt-3">Dzikir Pagi</p>
+                <p className="text-center font-semibold text-blue-900 font- pt-3">
+                  dzikir pagi
+                </p>
               </a>
             </Link>
             <Link href="/petang">
-              <a className="flex flex-col bg-gray-100 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+              <a className="flex flex-col bg-gray-50 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:bg-gray-200">
                 <img src="/sunrise.svg" className="w-auto h-6 md:h-8" />
-                <p className="text-center pt-3">Dzikir Petang</p>
+                <p className="text-center font-semibold text-blue-900 pt-3">
+                  dzikir petang
+                </p>
               </a>
             </Link>
             <Link href="/sholat">
-              <a className="flex flex-col bg-gray-100 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
-                <img src="/cloud.svg" className="w-auto h-5 md:h-7" />
-                <p className="text-center pt-3">Dzikir Setelah Sholat</p>
+              <a className="flex flex-col bg-gray-50 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:bg-gray-200">
+                <img src="/cloud.svg" className="w-auto h-8 md:h-10" />
+                <p className="text-center font-semibold  text-blue-900 pt-3">
+                  dzikir setelah sholat
+                </p>
               </a>
             </Link>
             <Link href="/tidur">
-              <a className="flex flex-col bg-gray-100 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+              <a className="flex flex-col bg-gray-50 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:bg-gray-200">
                 <img src="/sleep.svg" className="w-auto h-6 md:h-7" />
-                <p className="text-center pt-3">Dzikir Sebelum tidur</p>
+                <p className="text-center font-semibold  text-blue-900 pt-3">
+                  dzikir sebelum tidur
+                </p>
               </a>
             </Link>
           </div>
           <div className="flex text-center flex-col md:w-1/2 w-full md:px-20 md:py-10 md:w-5/12 p-5 m-5 text-left">
-            <p className="my-2 text-2xl md:text-3xl">
+            <p className="my-2 text-2xl font-amiri md:text-3xl">
               يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا.
               وَسَبِّحُوهُ بُكْرَةً وَأَصِيلا
             </p>
@@ -66,7 +74,7 @@ export default function Home() {
 }
 
 //  <Link href="/petang">
-//    <a className="flex flex-col bg-gray-100 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:shadow-2xl">
+//    <a className="flex flex-col bg-gray-100 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:bg-gray-200">
 //      <img src="/sunrise.svg" className="w-auto h-6 md:h-8" />
 //      <p className="text-center pt-3">Dzikir Petang</p>
 //    </a>
