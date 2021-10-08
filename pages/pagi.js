@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
 import Swipagi from "../components/Swiper/swiperPagi";
-import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
+import Navbar from "../components/Navbar/navbar";
 
 function Pagi() {
   return (

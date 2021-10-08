@@ -6,6 +6,7 @@ import SwiperCore, {
   Virtual,
 } from "swiper/core";
 import "swiper/swiper-bundle.css";
+import { ListTidur } from "../DataList/listTidur";
 
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
@@ -23,68 +24,11 @@ const SwiperTidur = () => {
       >
         <div className="flex flex-wrap mx-auto justify-center">
           <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
-                membaca Ayat kursi
-              </p>
-              <p className="my-2 text-xl md:text-2xl">
-                اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ، لاَ
-                تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا
-                فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ
-                بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ،
-                وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ،
-                وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَئُودُهُ
-                حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                "Allohu laa ilaaha illaa Huwal Hayyul Qoyyuum, laa ta’khudzuhuu
-                sinatuw walaa nauum, la Huu maa fis samawaati wa maa fil ardh,
-                mann dzalladzii yasyfa’u ‘inda Huu, illa bi idznih, ya’lamu maa
-                bayna aidiihim wa maa kholfahum, wa laa yuhiituuna bisyayim min
-                ‘ilmi Hii illaa bi maa syaa’, wa si’a kursiyyuus samaawaati
-                walardh, wa laa yauudlu Huu hifdzuhumaa, wa Huwal ‘aliyyul
-                ‘adziiim”
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya:
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Allah, tidak ada ilah (yang berhak disembah) melainkan Dia,
-                  yang hidup kekal lagi terus menerus mengurus (makhluk-Nya).
-                  Dia tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di
-                  langit dan di bumi. Tiada yang dapat memberi syafa’at di
-                  sisi-Nya tanpa seizin-Nya. Dia mengetahui apa-apa yang di
-                  hadapan mereka dan di belakang mereka. Mereka tidak mengetahui
-                  apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya.
-                  Kursi Allah meliputi langit dan bumi. Dia tidak merasa berat
-                  memelihara keduanya. Dan Dia Maha Tinggi lagi Maha besar.”
-                  (QS. Al Baqarah: 255)
-                </p>
-              </div>
-
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Siapa yang membaca ayat Kursi sebelum tidur, maka ia akan
-                  terus dijaga oleh Allah dan terlindungi dari gangguan setan
-                  hingga pagi hari.
-                </p>
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Bukhari no. 3275
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
             <div className="justify-center w-full lg:w-8/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
               <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
                 Membaca surat Al-Ikhlas, Al-Falaq,dan An-Naas
               </p>
-              <p>
+              <p className="text-sm md:text-base text-gray-900 mx-0 md:mx-20">
                 Mengumpulkan dua telapak tangan. Lalu ditiup dan dibacakan surat
                 Al Ikhlas, Al Falaq dan An Naas. Kemudian dua telapak tangan
                 tersebut mengusap tubuh yang dapat dijangkau, dimulai dari
@@ -220,238 +164,6 @@ const SwiperTidur = () => {
               </div>
             </div>
           </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
-                Membaca Surat Al Baqarah ayat 285-286
-              </p>
-              <p className="my-2 text-xl md:text-2xl">
-                آَمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ
-                وَالْمُؤْمِنُونَ كُلٌّ آَمَنَ بِاللَّهِ وَمَلَائِكَتِهِ
-                وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ
-                وَقَالُوا سَمِعْنَا وَأَطَعْنَا غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ
-                الْمَصِيرُ * لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلاَّ وُسْعَهَا
-                لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ رَبَّنَا لَا
-                تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا رَبَّنَا وَلَا
-                تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ
-                قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ
-                وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلَانَا
-                فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7"></p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Rasul telah beriman kepada Al-Qur’an yang diturunkan
-                  kepadanya dari Rabbnya, demikian pula orang-orang yang
-                  beriman. Semuanya beriman kepada Allah, malaikat-malaikat-Nya,
-                  kitab-kitab-Nya dan rasul-rasul-Nya. (Mereka mengatakan):
-                  “Kami tidak membeda-bedakan antara seorang pun (dengan yang
-                  lain) dari rasul-rasul-Nya”, dan mereka mengatakan: “Kami
-                  dengar dan kami ta’at”. (Mereka berdoa): “Ampunilah kami ya
-                  Rabb kami dan kepada Engkaulah tempat kembali”. Allah tidak
-                  membebani seseorang melainkan sesuai dengan kesanggupannya. Ia
-                  mendapat pahala (dari kebajikan) yang diusahakannya dan
-                  mendapat siksa (dari kejahatan) yang dikerjakannya. (Mereka
-                  berdoa): “Ya Rabb kami, janganlah Engkau hukum kami jika kami
-                  lupa atau kami bersalah. Ya Rabb kami, janganlah Engkau
-                  bebankan kepada kami beban yang berat sebagaimana Engkau
-                  bebankan kepada orang-orang yang sebelum kami. Ya Rabb kami,
-                  janganlah Engkau pikulkan kepada kami apa yang tak sanggup
-                  kami memikulnya. Beri maaflah kami; ampunilah kami; dan
-                  rahmatilah kami. Engkaulah Penolong kami, maka tolonglah kami
-                  terhadap kaum yang kafir“. (QS. Al Baqarah: 285-286)
-                </p>
-              </div>
-
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah:
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Siapa yang membaca dua ayat tersebut pada malam hari, maka dua
-                  ayat tersebut telah memberi kecukupan baginya.
-                </p>
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Bukhari no. 4008 dan Muslim no. 807.
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                بِاسْمِكَ رَبِّيْ وَضَعْتُ جَنْبِيْ، وَبِكَ أَرْفَعُهُ، فَإِنْ
-                أَمْسَكْتَ نَفْسِيْ فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا
-                فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِيْنَ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Bismika robbi wadho’tu jambii, wa bika arfa’uh, fa-in amsakta
-                nafsii farhamhaa, wa in arsaltahaa fahfazh-haa bimaa tahfazh
-                bihi ‘ibaadakash shoolihiin
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Dengan nama Engkau, wahai Rabbku, aku meletakkan lambungku.
-                  Dan dengan namaMu pula aku bangun daripadanya. Apabila Engkau
-                  menahan rohku (mati), maka berilah rahmat padanya. Tapi,
-                  apabila Engkau melepaskannya, maka peliharalah (dari kejahatan
-                  setan dan kejelekan dunia), sebagaimana Engkau memelihara
-                  hamba-hambaMu yang shalih."
-                </p>
-              </div>
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded w-11/12 md:w-8/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah:
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Apabila akan tidur, maka hendaklah tempat tidur tersebut
-                  dibersihkan karena siapa tahu ada kotoran yang membahayakan di
-                  situ, lalu membaca dzikir di atas.
-                </p>
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Al-Bukhari no. 6320 dan Muslim no. 2714
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                اَللَّهُمَّ إِنَّكَ خَلَقْتَ نَفْسِيْ وَأَنْتَ تَوَفَّاهَا، لَكَ
-                مَمَاتُهَا وَمَحْيَاهَا، إِنْ أَحْيَيْتَهَا فَاحْفَظْهَا، وَإِنْ
-                أَمَتَّهَا فَاغْفِرْ لَهَا. اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ
-                الْعَافِيَةَ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Allahumma innaka kholaqta nafsii wa anta tawaffaahaa, laka
-                mamaatuhaa wa mahyaahaa, in ahyaytahaa fahfazh-haa, wa in
-                ammatahaa faghfir lahaa. Allahumma innii as-alukal ‘aafiyah.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Ya Allah, sesungguhnya Engkau menciptakan diriku, dan
-                  Engkaulah yang akan mematikannya. Mati dan hidupnya hanya
-                  milik-Mu. Apabila Engkau menghidupkannya, maka peliharalah
-                  (dari berbagai kejelekan). Apabila Engkau mematikannya, maka
-                  ampunilah. Ya Allah, sesungguhnya aku memohon kepada-Mu
-                  keselamatan.”
-                </p>
-                <p className="text-xs md:text-sm font-lato text-gray-700 text-center py-3">
-                  HR. Muslim no. 2712
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-10 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                اَللَّهُمَّ قِنِيْ عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Allahumma qinii ‘adzaabak, yawma tab’atsu ‘ibaadak
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Ya Allah, jauhkanlah aku dari siksaanMu pada hari Engkau
-                  membangkitkan hamba-hambaMu (yaitu pada hari kiamat).”
-                </p>
-              </div>
-
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Apabila Rasulullah shallallahu’alaihi wa sallam hendak tidur,
-                  beliau meletakkan tangan kanannya di bawah pipinya, kemudian
-                  membaca dzikir di atas.
-                </p>
-
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Tirmidzi no. 3398 dan Abu Daud no. 5045
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                بِاسْمِكَ اللَّهُمَّ أَمُوْتُ وَأَحْيَا
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Bismika allahumma amuutu wa ahyaa.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Dengan namaMu, ya Allah! Aku mati dan hidup.”
-                </p>
-                <p className="text-xs md:text-sm font-lato text-gray-700 text-center py-3">
-                  HR. Bukhari no. 6312 dan Muslim no. 2711
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                اَللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ
-                السَّمَاوَاتِ وَاْلأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ،
-                أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَعُوْذُ بِكَ مِنْ
-                شَرِّ نَفْسِيْ، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ
-                أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Allahumma ‘aalimal ghoybi wasy syahaadah faathiros samaawaati
-                wal ardh. Robba kulli syai-in wa maliikah. Asyhadu alla ilaha
-                illa anta. A’udzu bika min syarri nafsii wa min syarrisy
-                syaythooni wa syirkihi, wa an aqtarifa ‘alaa nafsii suu-an aw
-                ajurrohu ilaa muslim.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p>Artinya</p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Ya Allah, Yang Maha Mengetahui yang ghaib dan yang nyata,
-                  wahai Rabb pencipta langit dan bumi, Rabb segala sesuatu dan
-                  yang merajainya. Aku bersaksi bahwa tidak ada ilah yang berhak
-                  disembah kecuali Engkau. Aku berlindung kepadaMu dari
-                  kejahatan diriku, setan dan balatentaranya (godaan untuk
-                  berbuat syirik pada Allah), dan aku (berlindung kepada-Mu)
-                  dari berbuat kejelekan terhadap diriku atau menyeretnya kepada
-                  seorang muslim.”
-                </p>
-              </div>
-
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Do’a ini diajarkan oleh Rasulullah shallallahu ‘alaihi wa
-                  sallam pada Abu Bakr Ash Shiddiq radhiyallahu ‘anhu untuk
-                  dibaca pada pagi, petang dan saat beranjak tidur.
-                </p>
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Tirmidzi no. 3392
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
           <SwiperSlide>
             <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
               <p className="my-2 text-xl md:text-2xl">
@@ -488,139 +200,35 @@ const SwiperTidur = () => {
               </div>
             </div>{" "}
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-10 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                اَللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ
-                الْعَظِيْمِ، رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ، فَالِقَ الْحَبِّ
-                وَالنَّوَى، وَمُنْزِلَ التَّوْرَاةِ وَاْلإِنْجِيْلِ
-                وَالْفُرْقَانِ، أَعُوْذُ بِكَ مِنْ شَرِّ كُلِّ شَيْءٍ أَنْتَ
-                آخِذٌ بِنَاصِيَتِهِ. اَللَّهُمَّ أَنْتَ اْلأَوَّلُ فَلَيْسَ
-                قَبْلَكَ شَيْءٌ، وَأَنْتَ اْلآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ،
-                وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ، وَأَنْتَ
-                الْبَاطِنُ فَلَيْسَ دُوْنَكَ شَيْءٌ، اِقْضِ عَنَّا الدَّيْنَ
-                وَأَغْنِنَا مِنَ الْفَقْرِ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Allahumma robbas-samaawaatis sab’i wa robbal ‘arsyil ‘azhiim,
-                robbanaa wa robba kulli syai-in, faaliqol habbi wan-nawaa wa
-                munzilat-tawrooti wal injiil wal furqoon. A’udzu bika min syarri
-                kulli syai-in anta aakhidzum binaa-shiyatih. Allahumma antal
-                awwalu falaysa qoblaka syai-un wa antal aakhiru falaysa ba’daka
-                syai-un, wa antazh zhoohiru fa laysa fawqoka syai-un, wa antal
-                baathinu falaysa duunaka syai-un, iqdhi ‘annad-dainaa wa
-                aghninaa minal faqri.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Ya Allah, Rabb yang menguasai langit yang tujuh, Rabb yang
-                  menguasai ‘Arsy yang agung, Rabb kami dan Rabb segala sesuatu.
-                  Rabb yang membelah butir tumbuh-tumbuhan dan biji buah, Rabb
-                  yang menurunkan kitab Taurat, Injil dan Furqan (Al-Qur’an).
-                  Aku berlindung kepadaMu dari kejahatan segala sesuatu yang
-                  Engkau memegang ubun-ubunnya (semua makhluk atas kuasa Allah).
-                  Ya Allah, Engkau-lah yang awal, sebelum-Mu tidak ada sesuatu.
-                  Engkaulah yang terakhir, setelahMu tidak ada sesuatu.
-                  Engkau-lah yang lahir, tidak ada sesuatu di atasMu. Engkau-lah
-                  yang Batin, tidak ada sesuatu yang luput dari-Mu[9]. Lunasilah
-                  utang kami dan berilah kami kekayaan (kecukupan) hingga
-                  terlepas dari kefakiran.”
-                </p>
-                <p className="text-xs md:text-sm font-lato text-gray-700 text-center py-3">
-                  HR. Muslim no. 2713
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
+          {ListTidur.map((list, index) => {
+            return (
+              <SwiperSlide key={index}>
+                <div className={list.classNameCountainer}>
+                  <div className={list.classNameCardRepeat}>
+                    <p className={list.classNameRepeat}>{list.titleRepeat}</p>
+                  </div>
+                  <p className={list.classNameTitle}>{list.title}</p>
+                  <p className={list.classNameDzikir}>{list.dzikir}</p>
+                  <p className={list.classNameLatin}>{list.latin}</p>
+                  <div className={list.classNameCardArti}>
+                    <p className={list.classNameArtinya}>Artinya:</p>
+                    <p className={list.classNameTerjemahan}>
+                      {list.terjemahan}
+                    </p>
+                    <p className={list.classNameHRCard}>{list.HRinCard}</p>
+                  </div>
 
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-10 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                اَللَّهُمَّ أَسْلَمْتُ نَفْسِيْ إِلَيْكَ، وَفَوَّضْتُ أَمْرِيْ
-                إِلَيْكَ، وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِيْ
-                إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لاَ مَلْجَأَ وَلاَ
-                مَنْجَا مِنْكَ إِلاَّ إِلَيْكَ، آمَنْتُ بِكِتَابِكَ الَّذِيْ
-                أَنْزَلْتَ وَبِنَبِيِّكَ الَّذِيْ أَرْسَلْتَ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Allahumma aslamtu nafsii ilaik, wa fawwadh-tu amrii ilaik, wa
-                wajjahtu wajhiya ilaik, wa alja’tu zhohrii ilaik, rogh-batan wa
-                rohbatan ilaik, laa malja-a wa laa manjaa minka illa ilaik.
-                Aamantu bikitaabikalladzi anzalta wa bi nabiyyikalladzi arsalta.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Ya Allah, aku menyerahkan diriku kepadaMu, aku menyerahkan
-                  urusanku kepadaMu, aku menghadapkan wajahku kepadaMu, aku
-                  menyandarkan punggungku kepadaMu, karena senang (mendapatkan
-                  rahmatMu) dan takut pada (siksaanMu, bila melakukan
-                  kesalahan). Tidak ada tempat perlindungan dan penyelamatan
-                  dari (ancaman)Mu, kecuali kepadaMu. Aku beriman pada kitab
-                  yang telah Engkau turunkan, dan (kebenaran) NabiMu yang telah
-                  Engkau utus.” Apabila Engkau meninggal dunia (di waktu tidur),
-                  maka kamu akan meninggal dunia dengan memegang fitrah (agama
-                  Islam).”
-                </p>
-              </div>
-
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Jika seseorang membaca dzikir di atas ketika hendak tidur lalu
-                  ia mati, maka ia mati di atas fithrah (mati di atas Islam)
-                </p>
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Al-Bukhari no. 6313 dan Muslim no. 2710
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ
-                لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ
-                عَيْنٍ أَبَدًا
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Yaa Hayyu Yaa Qoyyum, bi-rohmatika as-taghiits, wa ash-lih lii
-                sya’nii kullahu wa laa takilnii ilaa nafsii thorfata.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri
-                  (tidak butuh segala sesuatu), dengan rahmat-Mu aku minta
-                  pertolongan, perbaikilah segala urusanku dan jangan diserahkan
-                  kepadaku sekali pun sekejap mata (tanpa mendapat pertolongan
-                  dariMu).”
-                </p>
-              </div>
-
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Dzikir ini diajarkan oleh Nabi shallallahu ‘alaihi wa sallam
-                  pada Fathimah supaya diamalkan pagi dan petang.
-                </p>
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Ibnu As Sunni no. 46
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
+                  <div className={list.classNameCardFaedah}>
+                    <p className={list.classNameFaedahtitle}>
+                      {list.titleFaedah}
+                    </p>
+                    <p className={list.classNameIsiFaedah}>{list.faedahnya}</p>
+                    <p className={list.classNameHadist}>{list.HR}</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
         </div>
       </Swiper>
     </div>

@@ -17,3 +17,12 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+.sidebar {
+  @apply w-full h-52 absolute top-16 left-24 z-20 bg-black;
+}
+
+/* .navbar {
+  @screen md {
+    @apply grid grid-cols-4 w-3/12 pr-16;
+  }
+} */

@@ -6,6 +6,7 @@ import SwiperCore, {
   Virtual,
 } from "swiper/core";
 import "swiper/swiper-bundle.css";
+import { ListSholat } from "../DataList/listSholat";
 
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
@@ -23,7 +24,7 @@ const SwiperSholat = () => {
       >
         <div className="flex flex-wrap mx-auto justify-center">
           <SwiperSlide>
-            <div className="justify-center w-full lg:w-5/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
+            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
               <p className="my-2 text-xl md:text-2xl">
                 (3x) أَسْتَغْفِرُ اللهَ <br /> اَللَّهُمَّ أَنْتَ السَّلاَمُ،
                 وَمِنْكَ السَّلاَمُ، تَبَارَكْتَ يَا ذَا الْجَلاَلِ
@@ -59,66 +60,8 @@ const SwiperSholat = () => {
               </div>
             </div>
           </SwiperSlide>
-
           <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
-                membaca Ayat kursi
-              </p>
-              <p className="my-2 text-xl md:text-2xl">
-                اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ، لاَ
-                تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا
-                فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ
-                بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ،
-                وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ،
-                وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَئُودُهُ
-                حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                "Allohu laa ilaaha illaa Huwal Hayyul Qoyyuum, laa ta’khudzuhuu
-                sinatuw walaa nauum, la Huu maa fis samawaati wa maa fil ardh,
-                mann dzalladzii yasyfa’u ‘inda Huu, illa bi idznih, ya’lamu maa
-                bayna aidiihim wa maa kholfahum, wa laa yuhiituuna bisyayim min
-                ‘ilmi Hii illaa bi maa syaa’, wa si’a kursiyyuus samaawaati
-                walardh, wa laa yauudlu Huu hifdzuhumaa, wa Huwal ‘aliyyul
-                ‘adziiim”
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya:
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Allah, tidak ada ilah (yang berhak disembah) melainkan Dia,
-                  yang hidup kekal lagi terus menerus mengurus (makhluk-Nya).
-                  Dia tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di
-                  langit dan di bumi. Tiada yang dapat memberi syafa’at di
-                  sisi-Nya tanpa seizin-Nya. Dia mengetahui apa-apa yang di
-                  hadapan mereka dan di belakang mereka. Mereka tidak mengetahui
-                  apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya.
-                  Kursi Allah meliputi langit dan bumi. Dia tidak merasa berat
-                  memelihara keduanya. Dan Dia Maha Tinggi lagi Maha besar.”
-                  (QS. Al Baqarah: 255)
-                </p>
-              </div>
-
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Siapa yang membacanya ketika petang, maka ia akan dilindungi
-                  (oleh Allah dari berbagai gangguan) hingga pagi. Siapa yang
-                  membacanya ketika pagi, maka ia akan dilindungi hingga petang.
-                </p>
-                <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Al Hakim (1: 562)
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-8/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
+            <div className="justify-center w-full lg:w-8/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
               <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
                 Membaca surat Al-Ikhlas, Al-Falaq,dan An-Naas
               </p>
@@ -258,96 +201,8 @@ const SwiperSholat = () => {
               </div>
             </div>
           </SwiperSlide>
-
           <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ
-                الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ،
-                اَللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ، وَلاَ مُعْطِيَ لِمَا
-                مَنَعْتَ، وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Laa ilaha illallah wahdahu laa syarika lah, lahul mulku wa lahul
-                hamdu wa huwa ‘ala kulli syai-in qodiir. Allahumma laa maani’a
-                limaa a’thoyta wa laa mu’thiya limaa mana’ta wa laa yanfa’u dzal
-                jaddi minkal jaddu.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya:
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Tiada Rabb yang berhak disembah selain Allah Yang Maha Esa,
-                  tidak ada sekutu bagi-Nya. Bagi-Nya puji dan bagi-Nya
-                  kerajaan. Dia Maha Kuasa atas segala sesuatu. Ya Allah, tidak
-                  ada yang mencegah apa yang Engkau berikan dan tidak ada yang
-                  memberi apa yang Engkau cegah. Tidak berguna kekayaan dan
-                  kemuliaan itu bagi pemiliknya (selain iman dan amal shalihnya
-                  yang menyelamatkan dari siksaan). Hanya dari-Mu kekayaan dan
-                  kemuliaan."
-                </p>
-                <p className="text-xs md:text-sm font-lato text-gray-700 text-center py-3">
-                  HR. Bukhari no. 844 dan Muslim no. 593
-                </p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ
-                الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ.
-                لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ، لاَ إِلَـهَ إِلاَّ
-                اللهُ، وَلاَ نَعْبُدُ إِلاَّ إِيَّاهُ، لَهُ النِّعْمَةُ وَلَهُ
-                الْفَضْلُ وَلَهُ الثَّنَاءُ الْحَسَنُ، لاَ إِلَـهَ إِلاَّ اللهُ
-                مُخْلِصِيْنَ لَهُ الدِّيْنَ وَلَوْ كَرِهَ الْكَافِرُوْنَ
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Laa ilaha illallah wahdahu laa syarika lah. Lahul mulku wa lahul
-                hamdu wa huwa ‘ala kulli syai-in qodiir. Laa hawla wa laa
-                quwwata illa billah. Laa ilaha illallah wa laa na’budu illa
-                iyyaah. Lahun ni’mah wa lahul fadhlu wa lahuts tsanaaul hasan.
-                Laa ilaha illallah mukhlishiina lahud diin wa law karihal
-                kaafiruun.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Tiada Rabb (yang berhak disembah) kecuali Allah, Yang Maha
-                  Esa, tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan pujaan.
-                  Dia Mahakuasa atas segala sesuatu. Tidak ada daya dan kekuatan
-                  kecuali (dengan pertolongan) Allah. Tiada Rabb (yang hak
-                  disembah) kecuali Allah. Kami tidak menyembah kecuali
-                  kepada-Nya. Bagi-Nya nikmat, anugerah dan pujaan yang baik.
-                  Tiada Rabb (yang hak disembah) kecuali Allah, dengan
-                  memurnikan ibadah kepadaNya, sekalipun orang-orang kafir sama
-                  benci.”
-                </p>
-                <p className="text-xs md:text-sm font-lato text-gray-700 text-center py-3">
-                  HR. Tirmidzi no. 3391 dan Abu Daud no. 5068
-                </p>
-              </div>
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto">
-                <p className="pb-3 font-MarckScript text-base md:text-lg">
-                  Faedah
-                </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
-                  Dikatakan oleh ‘Abdullah bin Zubair, Nabi shallallahu ‘alaihi
-                  wa sallam biasa membaca tahlil (laa ilaha illallah) di akhir
-                  shalat.
-                  <p className="text-xs md:text-sm text-center font-lato py-2">
-                    HR. Muslim no. 594.
-                  </p>
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
+            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
               <p className="my-2 text-xl md:text-2xl">
                 <p> (33x) سُبْحَانَ اللهِ </p>
                 <p className="py-2"> (33x) اَلْحَمْدُ لِلَّهِ</p>
@@ -390,31 +245,35 @@ const SwiperSholat = () => {
               </div>
             </div>{" "}
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
-                اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا
-                طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً
-              </p>
-              <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
-                Allahumma innii as-aluka ‘ilman naafi’a, wa rizqon thoyyibaa, wa
-                ‘amalan mutaqobbalaa.
-              </p>
-              <div className="shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left">
-                <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
-                  Artinya
-                </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
-                  “Ya Allah, sungguh aku memohon kepada-Mu ilmu yang bermanfaat
-                  (bagi diriku dan orang lain), rizki yang halal dan amal yang
-                  diterima (di sisi-Mu dan mendapatkan ganjaran yang baik).”
-                </p>
-                <p className="text-xs md:text-sm font-lato text-gray-700 text-center py-3">
-                  HR. Ibnu Majah no. 925 dan Ahmad 6: 305, 322
-                </p>
-              </div>
-            </div>{" "}
-          </SwiperSlide>
+          {ListSholat.map((list, index) => {
+            return (
+              <SwiperSlide key={index}>
+                <div className={list.classNameCountainer}>
+                  <div className={list.classNameCardRepeat}>
+                    <p className={list.classNameRepeat}>{list.titleRepeat}</p>
+                  </div>
+                  <p className={list.classNameTitle}>{list.title}</p>
+                  <p className={list.classNameDzikir}>{list.dzikir}</p>
+                  <p className={list.classNameLatin}>{list.latin}</p>
+                  <div className={list.classNameCardArti}>
+                    <p className={list.classNameArtinya}>Artinya:</p>
+                    <p className={list.classNameTerjemahan}>
+                      {list.terjemahan}
+                    </p>
+                    <p className={list.classNameHRCard}>{list.HRinCard}</p>
+                  </div>
+
+                  <div className={list.classNameCardFaedah}>
+                    <p className={list.classNameFaedahtitle}>
+                      {list.titleFaedah}
+                    </p>
+                    <p className={list.classNameIsiFaedah}>{list.faedahnya}</p>
+                    <p className={list.classNameHadist}>{list.HR}</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
         </div>
       </Swiper>
     </div>

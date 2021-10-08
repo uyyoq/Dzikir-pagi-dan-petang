@@ -4,14 +4,9 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-t from-gray-300 to-white bottom-0 right-0 inset-x-auto w-full py-6 md:py-3">
       <div className="flex flex-col text-gray-900 justify-between md:flex-row text-xs my-auto lg:px-14 pt-5">
-        <p className="hidden md:flex md:py-0">
-          © Copyright 2021, All Rights Reserved | Made with By Trysni Yuni
-          Lestari
+        <p className="flex flex-col items-center pb-3 md:py-0">
+          © Copyright 2021
         </p>
-        <div className="flex flex-col md:hidden text-center py-3 md:py-0">
-          <p className=""> © Copyright 2021, All Rights Reserved</p>
-          <p>Made with By Trysni Yuni Lestari</p>
-        </div>
         <div className="flex mx-auto md:mx-0">
           <a className="mx-3" href="https://www.facebook.com/trysniyuni">
             <img

@@ -1,10 +1,13 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar/navbar";
 import Footer from "../components/Footer/footer";
 import Link from "next/link";
 import { Fragment } from "react";
+import React, { useState } from "react";
+import Navbar from "../components/Navbar/navbar";
 
 export default function Home() {
+  const [status, setStatus] = useState(true);
+
   return (
     <Fragment>
       <Head>
@@ -14,7 +17,7 @@ export default function Home() {
 
       <main className="text-current">
         <Navbar />
-        <div className="flex flex-col md:flex-row w-full justify-center items-center mx-auto pt-28 md:pt-32">
+        <div className="flex flex-col md:flex-row w-full justify-center items-center mx-auto pt-20 md:pt-32">
           <div className="flex md:flex-wrap mx-auto justify-center md:w-1/2 w-8/12 flex-col md:flex-row text-gray-7">
             <Link href="/pagi">
               <a className="flex flex-col bg-gray-50 items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer hover:bg-gray-200">
