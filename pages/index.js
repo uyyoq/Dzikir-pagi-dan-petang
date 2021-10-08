@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import React, { useState } from "react";
 import Navbar from "../components/Navbar/navbar";
+import Contact from "../components/Contact/Contact";
 
 export default function Home() {
   const [status, setStatus] = useState(true);
@@ -70,6 +71,7 @@ export default function Home() {
       </main>
 
       <footer className="pt-12">
+        <Contact />
         <Footer />
       </footer>
     </Fragment>
