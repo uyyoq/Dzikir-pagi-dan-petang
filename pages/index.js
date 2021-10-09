@@ -18,19 +18,19 @@ export default function Home() {
         <link rel="icon" href="/logoo.svg" />
       </Head>
 
-      <main className="text-current">
+      <main className="text-current pb-32 lg:pb-0">
         <Navbar />
-        <div className="flex flex-col w-full justify-center items-center mx-auto pt-20 lg:pt-24">
+        <div className="flex flex-col w-full justify-center items-center mx-auto pt-20 md:pt-24">
           <div className="bg-line w-full flex flex-col relative h-96 text-center pt-16 text-gray-100 ">
-            <h1 className="lg:w-7/12 mx-auto font-bold lg:text-4xl font-JosefinSans">
+            <h1 className="md:w-7/12 w-10/12 mx-auto font-bold text-xl md:text-2xl lg:text-4xl font-JosefinSans">
               memanfaatkan waktu sebaik baiknya untuk berdzikir kepada ﷲ
             </h1>
-            <p className="lg:text-sm font-Montserrat">
+            <p className="lg:text-sm text-xs mx-5 lg:mx-0 font-Montserrat">
               Zikr web menghadirkan bacaan dzikir yang mudah dan elegan untuk
               dibaca setiap hari
             </p>
           </div>
-          <div className="absolute flex md:flex-wrap mx-auto justify-center shadow rounded-3xl top-1/2 height-1/2 bg-white lg:w-1/2 w-8/12 md:w-full flex-col md:flex-row text-gray-7">
+          <div className="absolute flex md:flex-wrap mx-auto justify-center shadow rounded-3xl top-1/2 height-1/2 bg-white lg:w-6/12 w-10/12 md:w-10/12 flex-col md:flex-row text-gray-7">
             <Link href="/pagi">
               <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
                 <img src="/sun.svg" className="w-auto h-8 md:h-10" />
@@ -39,14 +39,17 @@ export default function Home() {
                 </p>
               </a>
             </Link>
-            <Link href="/petang">
-              <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                <img src="/sunrise.svg" className="w-auto h-6 md:h-8" />
-                <p className="text-center font-semibold text-blue-900 pt-3">
-                  dzikir petang
-                </p>
-              </a>
-            </Link>
+            <div>
+              <Link href="/petang">
+                <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
+                  <img src="/sunrise.svg" className="w-auto h-6 md:h-8" />
+                  <p className="text-center font-semibold text-blue-900 pt-3">
+                    dzikir petang
+                  </p>
+                </a>
+              </Link>
+            </div>
+
             <Link href="/sholat">
               <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
                 <img src="/cloud.svg" className="w-auto h-8 md:h-10" />
