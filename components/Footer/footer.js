@@ -1,11 +1,9 @@
 import React from "react";
-import Contact from "../Contact/Contact";
 
 function Footer() {
   return (
-    <footer className="pt-96">
-      <Contact />
-      <div className="bg-blue-900 flex flex-col text-gray-900 justify-between md:flex-row text-xs my-auto md:px-10 lg:px-14 pb-1 md:pb-4">
+    <footer className="">
+      <div className="bg-blue-900 flex flex-col text-gray-900 justify-between md:flex-row text-xs my-auto md:px-10 lg:px-14 py-4">
         <p className="flex flex-col items-center text-gray-300 pb-3 md:py-0">
           © Copyright Zikr 2021, All Rights Reserved
         </p>

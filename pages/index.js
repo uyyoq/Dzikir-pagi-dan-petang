@@ -20,17 +20,17 @@ export default function Home() {
 
       <main className="text-current pb-32 lg:pb-0">
         <Navbar />
-        <div className="flex flex-col w-full justify-center items-center mx-auto pt-20 md:pt-24">
+        <div className="flex flex-col w-full justify-center items-center mx-auto pt-16 md:pt-20">
           <div className="bg-line w-full flex flex-col relative h-96 text-center pt-16 text-gray-100 ">
             <h1 className="md:w-7/12 w-10/12 mx-auto font-bold text-xl md:text-2xl lg:text-4xl font-JosefinSans">
               memanfaatkan waktu sebaik baiknya untuk berdzikir kepada ﷲ
             </h1>
             <p className="lg:text-sm text-xs mx-5 lg:mx-0 font-Montserrat">
-              Zikr web menghadirkan bacaan dzikir yang mudah dan elegan untuk
+              Zikr web menghadirkan bacaan dzikir yang mudah dan cepat untuk
               dibaca setiap hari
             </p>
           </div>
-          <div className="absolute flex md:flex-wrap mx-auto justify-center shadow rounded-3xl top-1/2 height-1/2 bg-white lg:w-6/12 w-10/12 md:w-10/12 flex-col md:flex-row text-gray-7">
+          <div className="absolute flex md:flex-wrap mx-auto justify-center shadow rounded-3xl top-1/2 md:top-1/3 lg:top-1/2 height-1/2 bg-white lg:w-6/12 w-10/12 md:w-10/12 flex-col md:flex-row text-gray-7">
             <Link href="/pagi">
               <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
                 <img src="/sun.svg" className="w-auto h-8 md:h-10" />
@@ -91,7 +91,8 @@ export default function Home() {
         `}</style>
       </main>
 
-      <footer className="pt-12">
+      <footer className="pt-96">
+        <Contact />
         <Footer />
       </footer>
     </Fragment>
