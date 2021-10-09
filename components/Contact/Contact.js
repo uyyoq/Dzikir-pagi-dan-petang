@@ -23,10 +23,10 @@ const Contact = () => {
       {/* RESPONSIVE MOBILE */}
       <div className="w-full md:hidden bg-everest">
         <div className="w-full flex flex-col justify-center">
-          <p className="font-bold text-gray-800 font-3x text-center">
+          <p className="font-bold text-gray-800 font-3x text-center font-JosefinSans">
             Hubungi Kami
           </p>
-          <form className="m-10">
+          <form className="mx-10">
             <div className="mt-5">
               <input
                 className="appearance-none bg-gray-100 rounded-lg py-4 px-5 text-sm focus:outline-none w-full"
@@ -89,12 +89,12 @@ const Contact = () => {
         </div>
       </div>
       {/* RESPONSIVE lAPTOP */}
-      <div className="w-full hidden md:flex">
-        <div className="flex w-2/6 justify-end md:mx-1 lg:mx-5">
-          <img src="/man.svg" className="w-60 h-auto" alt="man" />
+      <div className="w-full hidden md:flex md:justify-center lg:justify-start">
+        <div className="flex w-2/6 justify-end md:mx-1">
+          <img src="/mane.svg" className="lg:w-56 md:40 h-auto" alt="man" />
         </div>
         <div className="md:w-1/2 lg:flex lg:flex-col lg:justify-end">
-          <p className="font-bold md:text-gray-800 lg:text-gray-200 font-5xl mb-10">
+          <p className="font-bold md:text-gray-800 lg:text-gray-200 font-6xl mb-10 font-JosefinSans">
             Hubungi Kami
           </p>
           <form className="flex md:flex-col lg:flex-row md:mx-10 lg:mx-0">
@@ -148,7 +148,7 @@ const Contact = () => {
                 </p>
               )}
             </div>
-            <div className="lg:mx-10 lg:mt-16 md:mt-3">
+            <div className="lg:mx-10 lg:mt-12 md:mt-3">
               <button
                 onClick={handleSubmit(onSubmit)}
                 type="submit"
