@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar/navbar";
 import Contact from "../components/Contact/Contact";
 
-const line = "/line.svg";
+const line = "/background/line.svg";
 
 export default function Home() {
   // const [status, setStatus] = useState(true);
@@ -15,7 +15,7 @@ export default function Home() {
     <Fragment>
       <Head>
         <title>dzikir pagi dan petang</title>
-        <link rel="icon" href="/logoo.svg" />
+        <link rel="icon" href="/logo/logo.svg" />
       </Head>
 
       <main className="text-current pb-32 lg:pb-0">
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="absolute flex md:flex-wrap mx-auto justify-center shadow rounded-3xl top-1/2 md:top-1/3 lg:top-1/2 height-1/2 bg-white lg:w-6/12 w-10/12 md:w-10/12 flex-col md:flex-row text-gray-7">
             <Link href="/pagi">
               <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                <img src="/sun.svg" className="w-auto h-8 md:h-10" />
+                <img src="/icon/sun.svg" className="w-auto h-8 md:h-10" />
                 <p className="text-center font-semibold text-blue-900 font- pt-3">
                   dzikir pagi
                 </p>
@@ -42,7 +42,7 @@ export default function Home() {
             <div>
               <Link href="/petang">
                 <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                  <img src="/sunrise.svg" className="w-auto h-6 md:h-8" />
+                  <img src="/icon/sunrise.svg" className="w-auto h-6 md:h-8" />
                   <p className="text-center font-semibold text-blue-900 pt-3">
                     dzikir petang
                   </p>
@@ -52,7 +52,7 @@ export default function Home() {
 
             <Link href="/sholat">
               <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                <img src="/cloud.svg" className="w-auto h-8 md:h-10" />
+                <img src="/icon/cloud.svg" className="w-auto h-8 md:h-10" />
                 <p className="text-center font-semibold  text-blue-900 pt-3">
                   dzikir setelah sholat
                 </p>
@@ -60,7 +60,7 @@ export default function Home() {
             </Link>
             <Link href="/tidur">
               <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                <img src="/sleep.svg" className="w-auto h-6 md:h-7" />
+                <img src="/icon/sleep.svg" className="w-auto h-6 md:h-7" />
                 <p className="text-center font-semibold  text-blue-900 pt-3">
                   dzikir sebelum tidur
                 </p>

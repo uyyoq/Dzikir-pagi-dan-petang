@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { ContactS } from "./__contact_schema";
 
-const everest = "/background.svg";
+const everest = "/background/everest.svg";
 
 const Contact = () => {
   const {
@@ -91,7 +91,11 @@ const Contact = () => {
       {/* RESPONSIVE lAPTOP */}
       <div className="w-full hidden md:flex md:justify-center lg:justify-start">
         <div className="flex w-2/6 justify-end md:mx-1">
-          <img src="/mane.svg" className="lg:w-56 md:40 h-auto" alt="man" />
+          <img
+            src="/background/man.svg"
+            className="lg:w-56 md:40 h-auto"
+            alt="man"
+          />
         </div>
         <div className="md:w-1/2 lg:flex lg:flex-col lg:justify-end">
           <p className="font-bold md:text-gray-800 lg:text-gray-200 font-6xl mb-10 font-JosefinSans">

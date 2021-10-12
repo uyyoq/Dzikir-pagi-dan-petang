@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="">
+    <footer className="bg-blue-900">
       <div className="bg-blue-900 flex flex-col text-gray-900 justify-between md:flex-row text-xs my-auto md:px-10 lg:px-14 py-4">
         <p className="flex flex-col items-center text-gray-300 pb-3 md:py-0">
           © Copyright Zikr 2021, All Rights Reserved
@@ -10,14 +10,14 @@ function Footer() {
         <div className="flex mx-auto md:mx-0">
           <a className="mx-3" href="https://www.facebook.com/trysniyuni">
             <img
-              src="/facebook.svg"
+              src="/sosmed/facebook.svg"
               className="w-4 h-auto mx-auto cursor-pointer"
               alt="facebook"
             />
           </a>
           <a className="" href="https://www.instagram.com/trysni__/">
             <img
-              src="/instagram.svg"
+              src="/sosmed/instagram.svg"
               className="w-4 h-auto mx-auto cursor-pointer"
               alt="instagram"
             />
@@ -27,7 +27,7 @@ function Footer() {
             href="https://github.com/uyyoq/Dzikir-pagi-dan-petang"
           >
             <img
-              src="/github.svg"
+              src="/sosmed/github.svg"
               className="w-4 h-auto mx-auto cursor-pointer"
               alt="github"
             />

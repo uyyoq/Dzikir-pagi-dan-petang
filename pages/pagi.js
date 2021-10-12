@@ -9,7 +9,7 @@ function Pagi() {
     <Fragment>
       <Head>
         <title>dzikir pagi</title>
-        <link rel="icon" href="/logoo.svg" />
+        <link rel="icon" href="/logo/logo.svg" />
       </Head>
       <div className="w-full pt-32">
         <Navbar />

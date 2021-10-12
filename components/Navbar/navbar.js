@@ -1,10 +1,13 @@
 import React, { Fragment, useState } from "react";
 import { useSpring, animated } from "react-spring";
 import { Transition } from "@headlessui/react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import { MenuItems } from "./menuItem";
 
 function Navbar() {
+  const router = useRouter();
+
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
@@ -34,7 +37,7 @@ function Navbar() {
             <Link href="/">
               <a>
                 <img
-                  src="/zikrr.svg"
+                  src="/logo/zikr.svg"
                   className="w-16 md:w-20 h-auto mx-auto cursor-pointer"
                 />
               </a>
@@ -61,7 +64,15 @@ function Navbar() {
                 <ul className="hidden md:flex pt-6">
                   {MenuItems.map((item, index) => {
                     return (
-                      <li key={index} className="borders line pb-2 px-4">
+                      <li
+                        key={index}
+                        className=""
+                        className={
+                          router.pathname == item.url
+                            ? "border-b-2 border-blue-800 px-4 pb-2"
+                            : "borders line pb-2 px-4"
+                        }
+                      >
                         <Link href={item.url}>
                           <a className="">
                             <img src={item.src} className={item.CnameLg} />
@@ -98,7 +109,13 @@ function Navbar() {
                   return (
                     <div className={item.border}>
                       <Link key={index} href={item.url}>
-                        <a className={item.sm}>
+                        <a
+                          className={
+                            router.pathname == item.url
+                              ? "flex flex-row px-3 py-2 text-gray-900 rounded bg-gray-200"
+                              : item.sm
+                          }
+                        >
                           <img src={item.src} className={item.CnameSm} />
                           <p className="pl-3">{item.title}</p>
                         </a>
