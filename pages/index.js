@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import React, { useState } from "react";
 import Navbar from "../components/Navbar/navbar";
-import Contact from "../components/Contact/Contact";
+// import Contact from "../components/Contact/Contact";
 
 const line = "/background/line.svg";
 
@@ -34,7 +34,7 @@ export default function Home() {
             <Link href="/pagi">
               <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20 lg:m-5 md:m-10 p-3 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
                 <img src="/icon/sun.svg" className="w-auto h-5 md:h-10" />
-                <p className="text-center text-xs md:text-sm text-blue-900 pt-2 md:pt-3">
+                <p className="text-center text-xs md:text-sm font-medium md:font-semibold text-blue-900 pt-2 md:pt-3">
                   dzikir pagi
                 </p>
               </a>
@@ -43,7 +43,7 @@ export default function Home() {
               <Link href="/petang">
                 <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20 lg:m-5 md:m-10 p-3 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
                   <img src="/icon/sunrise.svg" className="w-auto h-4 md:h-8" />
-                  <p className="text-center text-xs md:text-sm text-blue-900 pt-2 md:pt-3">
+                  <p className="text-center text-xs md:text-sm font-medium md:font-semibold text-blue-900 pt-2 md:pt-3">
                     dzikir petang
                   </p>
                 </a>
@@ -53,7 +53,7 @@ export default function Home() {
             <Link href="/sholat">
               <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20 lg:m-5 md:m-10 p-2 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
                 <img src="/icon/cloud.svg" className="w-auto h-5 md:h-10" />
-                <p className="text-center text-xs md:text-sm text-blue-900 pt-2 md:pt-3">
+                <p className="text-center text-xs md:text-sm font-medium md:font-semibold text-blue-900 pt-2 md:pt-3">
                   dzikir setelah sholat
                 </p>
               </a>
@@ -61,7 +61,7 @@ export default function Home() {
             <Link href="/tidur">
               <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20  lg:m-5 md:m-10 p-2 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
                 <img src="/icon/sleep.svg" className="w-auto h-4 md:h-8" />
-                <p className="text-center text-xs md:text-sm  text-blue-900 pt-2 md:pt-3">
+                <p className="text-center text-xs md:text-sm font-medium md:font-semibold text-blue-900 pt-2 md:pt-3">
                   dzikir sebelum tidur
                 </p>
               </a>
@@ -92,7 +92,7 @@ export default function Home() {
       </main>
 
       <footer className="pt-24 md:pt-72 lg:pt-80">
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </footer>
     </Fragment>

@@ -55,7 +55,7 @@ const SwiperTidur = () => {
                         </p>
                       </div>
 
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ هُوَ اللَّهُ
                         أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ
                         وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ
@@ -91,7 +91,7 @@ const SwiperTidur = () => {
                         </p>
                       </div>
 
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ
                         بِرَبِّ الْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ
                         غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ النَّفَّاثَاتِ فِي
@@ -129,7 +129,7 @@ const SwiperTidur = () => {
                           Dibaca 3x
                         </p>
                       </div>
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ
                         بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَهِ النَّاسِ مِن
                         شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي
@@ -144,7 +144,7 @@ const SwiperTidur = () => {
                         <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                           Artinya
                         </p>
-                        <p className="text-justify font-lato text-xs md:text-sm">
+                        <p className="text-justify font-PTSerif text-xs md:text-sm">
                           “Dengan menyebut nama Allah Yang Maha Pengasih lagi
                           Maha Penyayang. Katakanlah: Aku berlindung kepada Rabb
                           manusia. Raja manusia. Sembahan manusia, dari
@@ -158,7 +158,7 @@ const SwiperTidur = () => {
                 </Swiper>
               </div>
               <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-5/12 mx-auto">
-                <p className="text-xs md:text-sm font-lato py-2">
+                <p className="text-xs md:text-sm font-PTSerif py-2">
                   HR. Bukhari no. 5017
                 </p>
               </div>
@@ -166,7 +166,7 @@ const SwiperTidur = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
+              <p className="my-2 text-2xl md:text-3xl">
                 <p> (33x) سُبْحَانَ اللهِ </p>
                 <p className="py-2"> (33x) اَلْحَمْدُ لِلَّهِ</p>
                 <p className="pb-2"> (34x) اَللهُ أَكْبَرُ </p>
@@ -188,12 +188,12 @@ const SwiperTidur = () => {
                 <p className="pb-3 font-MarckScript text-base md:text-lg">
                   Faedah
                 </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
+                <p className="text-justify font-PTSerif text-xs md:text-sm">
                   Bacaan di atas lebih baik daripada memiliki pembantu di rumah.
                   Demikian dikatakan oleh Nabi shallallahu ‘alaihi wa sallam
                   pada puterinya, Fatimah dan istri tercintanya, ‘Aisyah
                   radhiyallahu ‘anhuma.
-                  <p className="text-xs md:text-sm text-center font-lato py-2">
+                  <p className="text-xs md:text-sm text-center font-PTSerif py-2">
                     HR. Bukhari no. 3705
                   </p>
                 </p>

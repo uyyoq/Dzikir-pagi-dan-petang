@@ -20,16 +20,23 @@ module.exports = {
     },
 
     fontFamily: {
-      sans: ["Open Sans", "Lato", "Arial", "sans-serif"],
+      sans: ["Open Sans", "Arial", "sans-serif"],
       mono: ["SFMono-Regular", "Menlo"],
       Montserrat: ["Montserrat"],
-      lato: ["Lato"],
+      PTSerif: ["PT Serif"],
       amiri: ["Amiri"],
       JosefinSans: ["Josefin Sans"],
       MarckScript: ["Marck Script"],
       RobotoMono: ["Roboto Mono"],
       display: ["Oswald"],
-      body: ["Open Sans"],
+      body: [
+        "Open Sans",
+        "PT Serif",
+        "Arial",
+        "sans-serif",
+        "Montserrat",
+        "Marck Script",
+      ],
     },
 
     zIndex: {

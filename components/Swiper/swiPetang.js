@@ -28,7 +28,7 @@ const SwiPetang = () => {
               <p className="font-JosefinSans text-sm font-bold text-gray-800 pb-3 uppercase">
                 membaca Ta'awudz
               </p>
-              <p className="my-2 text-xl md:text-2xl">
+              <p className="my-2 text-2xl md:text-3xl">
                 أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ
               </p>
               <p className="p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7">
@@ -70,7 +70,7 @@ const SwiPetang = () => {
                         </p>
                       </div>
 
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ هُوَ اللَّهُ
                         أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ
                         وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ
@@ -106,7 +106,7 @@ const SwiPetang = () => {
                         </p>
                       </div>
 
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ
                         بِرَبِّ الْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ
                         غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ النَّفَّاثَاتِ فِي
@@ -144,7 +144,7 @@ const SwiPetang = () => {
                           Dibaca 3x
                         </p>
                       </div>
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ
                         بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَهِ النَّاسِ مِن
                         شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي
@@ -176,11 +176,11 @@ const SwiPetang = () => {
                 <p className="pb-3 font-MarckScript text-base md:text-lg">
                   Faedah
                 </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
+                <p className="text-justify font-PTSerif text-xs md:text-sm">
                   Siapa yang mengucapkannya masing-masing tiga kali ketika pagi
                   dan petang, maka segala sesuatu akan dicukupkan untuknya.
                 </p>
-                <p className="text-xs md:text-sm font-lato py-2">
+                <p className="text-xs md:text-sm font-PTSerif py-2">
                   HR.Tirmidzi no. 3575
                 </p>
               </div>

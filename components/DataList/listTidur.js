@@ -5,7 +5,7 @@ export const ListTidur = [
     classNameTitle:
       "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "membaca Ayat kursi",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ، لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَئُودُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ",
     classNameLatin:
@@ -39,8 +39,8 @@ export const ListTidur = [
     faedahnya: `Siapa yang membacanya ketika petang, maka ia akan dilindungi
                   (oleh Allah dari berbagai gangguan) hingga pagi. Siapa yang
                   membacanya ketika pagi, maka ia akan dilindungi hingga petang.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Al Hakim (1: 562)",
   },
   {
@@ -49,7 +49,7 @@ export const ListTidur = [
     classNameTitle:
       "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "Membaca Surat Al Baqarah ayat 285-286",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: `آَمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ
                 وَالْمُؤْمِنُونَ كُلٌّ آَمَنَ بِاللَّهِ وَمَلَائِكَتِهِ
                 وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ
@@ -98,14 +98,14 @@ export const ListTidur = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya: `Siapa yang membaca dua ayat tersebut pada malam hari, maka dua
                   ayat tersebut telah memberi kecukupan baginya.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Bukhari no. 4008 dan Muslim no. 807.",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: `بِاسْمِكَ رَبِّيْ وَضَعْتُ جَنْبِيْ، وَبِكَ أَرْفَعُهُ، فَإِنْ
                 أَمْسَكْتَ نَفْسِيْ فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا
                 فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِيْنَ`,
@@ -132,14 +132,14 @@ export const ListTidur = [
     faedahnya: `Apabila akan tidur, maka hendaklah tempat tidur tersebut
                   dibersihkan karena siapa tahu ada kotoran yang membahayakan di
                   situ, lalu membaca dzikir di atas.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Al-Bukhari no. 6320 dan Muslim no. 2714",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` اَللَّهُمَّ إِنَّكَ خَلَقْتَ نَفْسِيْ وَأَنْتَ تَوَفَّاهَا، لَكَ
                 مَمَاتُهَا وَمَحْيَاهَا، إِنْ أَحْيَيْتَهَا فَاحْفَظْهَا، وَإِنْ
                 أَمَتَّهَا فَاغْفِرْ لَهَا. اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ
@@ -161,13 +161,13 @@ export const ListTidur = [
                   ampunilah. Ya Allah, sesungguhnya aku memohon kepada-Mu
                   keselamatan.”`,
     classNameHRCard:
-      "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     HRinCard: "HR. Muslim no. 2712",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` اَللَّهُمَّ قِنِيْ عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ`,
     classNameLatin:
       "p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7",
@@ -186,14 +186,14 @@ export const ListTidur = [
     faedahnya: `Apabila Rasulullah shallallahu’alaihi wa sallam hendak tidur,
                   beliau meletakkan tangan kanannya di bawah pipinya, kemudian
                   membaca dzikir di atas.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Tirmidzi no. 3398 dan Abu Daud no. 5045",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: `بِاسْمِكَ اللَّهُمَّ أَمُوْتُ وَأَحْيَا`,
     classNameLatin:
       "p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7",
@@ -205,13 +205,13 @@ export const ListTidur = [
     classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
     terjemahan: `“Dengan namaMu, ya Allah! Aku mati dan hidup.”`,
     classNameHRCard:
-      "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     HRinCard: " HR. Bukhari no. 6312 dan Muslim no. 2711",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` اَللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ
                 السَّمَاوَاتِ وَاْلأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ،
                 أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَعُوْذُ بِكَ مِنْ
@@ -244,14 +244,14 @@ export const ListTidur = [
     faedahnya: `Do’a ini diajarkan oleh Rasulullah shallallahu ‘alaihi wa
                   sallam pada Abu Bakr Ash Shiddiq radhiyallahu ‘anhu untuk
                   dibaca pada pagi, petang dan saat beranjak tidur.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Tirmidzi no. 3392",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` اَللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ
                 الْعَظِيْمِ، رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ، فَالِقَ الْحَبِّ
                 وَالنَّوَى، وَمُنْزِلَ التَّوْرَاةِ وَاْلإِنْجِيْلِ
@@ -290,13 +290,13 @@ export const ListTidur = [
                   utang kami dan berilah kami kekayaan (kecukupan) hingga
                   terlepas dari kefakiran.”`,
     classNameHRCard:
-      "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     HRinCard: "HR. Muslim no. 2713",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` اَللَّهُمَّ أَسْلَمْتُ نَفْسِيْ إِلَيْكَ، وَفَوَّضْتُ أَمْرِيْ
                 إِلَيْكَ، وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِيْ
                 إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لاَ مَلْجَأَ وَلاَ
@@ -329,14 +329,14 @@ export const ListTidur = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya: `Jika seseorang membaca dzikir di atas ketika hendak tidur lalu
                   ia mati, maka ia mati di atas fithrah (mati di atas Islam)`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Al-Bukhari no. 6313 dan Muslim no. 2710",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ
                 لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ
                 عَيْنٍ أَبَدًا`,
@@ -360,8 +360,8 @@ export const ListTidur = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya: `Dzikir ini diajarkan oleh Nabi shallallahu ‘alaihi wa sallam
                   pada Fathimah supaya diamalkan pagi dan petang.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Ibnu As Sunni no. 46",
   },
 ];

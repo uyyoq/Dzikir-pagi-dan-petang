@@ -25,7 +25,7 @@ const SwiperSholat = () => {
         <div className="flex flex-wrap mx-auto justify-center">
           <SwiperSlide>
             <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
+              <p className="my-2 text-2xl md:text-3xl">
                 (3x) أَسْتَغْفِرُ اللهَ <br /> اَللَّهُمَّ أَنْتَ السَّلاَمُ،
                 وَمِنْكَ السَّلاَمُ، تَبَارَكْتَ يَا ذَا الْجَلاَلِ
                 وَاْلإِكْرَامِ
@@ -48,13 +48,13 @@ const SwiperSholat = () => {
                 <p className="pb-3 font-MarckScript text-base md:text-lg">
                   Faedah
                 </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
+                <p className="text-justify font-PTSerif text-xs md:text-sm">
                   Rasulullah shallallahu ‘alaihi wa sallam jika selesai dari
                   shalatnya beliau beristighfar sebanyak tiga kali dan membaca
                   dzikir di atas. Al Auza’i menyatakan bahwa bacaan istighfar
                   adalah astaghfirullah, astaghfirullah.
                 </p>
-                <p className="text-xs md:text-sm font-lato py-2">
+                <p className="text-xs md:text-sm font-PTSerif py-2">
                   HR. Muslim no. 591
                 </p>
               </div>
@@ -85,7 +85,7 @@ const SwiperSholat = () => {
                         </p>
                       </div>
 
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ هُوَ اللَّهُ
                         أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ
                         وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ
@@ -121,7 +121,7 @@ const SwiperSholat = () => {
                         </p>
                       </div>
 
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ
                         بِرَبِّ الْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ
                         غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ النَّفَّاثَاتِ فِي
@@ -159,7 +159,7 @@ const SwiperSholat = () => {
                           Dibaca 3x
                         </p>
                       </div>
-                      <p className="my-2 text-xl md:text-2xl">
+                      <p className="my-2 text-2xl md:text-3xl">
                         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ
                         بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَهِ النَّاسِ مِن
                         شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي
@@ -191,11 +191,11 @@ const SwiperSholat = () => {
                 <p className="pb-3 font-MarckScript text-base md:text-lg">
                   Faedah
                 </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
+                <p className="text-justify font-PTSerif text-xs md:text-sm">
                   Siapa yang mengucapkannya masing-masing tiga kali ketika pagi
                   dan petang, maka segala sesuatu akan dicukupkan untuknya.
                 </p>
-                <p className="text-xs md:text-sm font-lato py-2">
+                <p className="text-xs md:text-sm font-PTSerif py-2">
                   HR.Tirmidzi no. 3575
                 </p>
               </div>
@@ -203,7 +203,7 @@ const SwiperSholat = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="justify-center w-11/12 md:10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
-              <p className="my-2 text-xl md:text-2xl">
+              <p className="my-2 text-2xl md:text-3xl">
                 <p> (33x) سُبْحَانَ اللهِ </p>
                 <p className="py-2"> (33x) اَلْحَمْدُ لِلَّهِ</p>
                 <p className="pb-2"> (33x) اَللهُ أَكْبَرُ </p>
@@ -232,13 +232,13 @@ const SwiperSholat = () => {
                 <p className="pb-3 font-MarckScript text-base md:text-lg">
                   Faedah
                 </p>
-                <p className="text-justify font-lato text-xs md:text-sm">
+                <p className="text-justify font-PTSerif text-xs md:text-sm">
                   Siapa yang membaca dzikir di atas, maka dosa-dosanya diampuni
                   walau sebanyak buih di lautan.[5] Kata Imam Nawawi
                   rahimahullah, tekstual hadits menunjukkan bahwa bacaan
                   Subhanallah, Alhamdulillah, Allahu akbar, masing-masing dibaca
                   33 kali secara terpisah.
-                  <p className="text-xs md:text-sm text-center font-lato py-2">
+                  <p className="text-xs md:text-sm text-center font-PTSerif py-2">
                     Lihat Syarh Shahih Muslim, 5: 84
                   </p>
                 </p>

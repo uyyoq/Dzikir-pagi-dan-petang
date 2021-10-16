@@ -14,7 +14,7 @@
    width="48"
    height="48"
    viewBox="0 0 48 48"
-   sodipodi:docname="zikrr.svg"
+   sodipodi:docname="zikr.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata8">
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -44,7 +44,7 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="6.9532167"
-     inkscape:cx="-3.7520933"
+     inkscape:cx="34.215945"
      inkscape:cy="25.066406"
      inkscape:window-x="36"
      inkscape:window-y="0"
@@ -109,15 +109,14 @@
          id="path81" />
     </g>
   </g>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.5700016px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.99999994;"
-     x="4.7645397"
-     y="31.927633"
-     id="text29"><tspan
-       sodipodi:role="line"
-       id="tspan27"
-       x="4.7645397"
-       y="31.927633"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';stroke-width:0.99999994;fill:#1a1a1a;">z</tspan></text>
+  <g
+     aria-label="z"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.5700016px;line-height:1.25;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.99999994"
+     id="text29">
+    <path
+       d="m 5.4627283,22.298072 h 8.9313727 v 2.158037 l -4.8601175,4.950792 h 5.1593415 v 2.520732 H 5.1000329 V 29.533844 L 9.7062638,24.818805 H 5.4627283 Z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:#1a1a1a;stroke-width:0.99999994"
+       id="path20"
+       inkscape:connector-curvature="0" />
+  </g>
 </svg>

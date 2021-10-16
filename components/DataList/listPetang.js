@@ -5,7 +5,7 @@ export const ListPetang = [
     classNameTitle:
       "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "membaca Ayat kursi",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ، لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَئُودُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ",
     classNameLatin:
@@ -39,14 +39,14 @@ export const ListPetang = [
     faedahnya: `Siapa yang membacanya ketika petang, maka ia akan dilindungi
                   (oleh Allah dari berbagai gangguan) hingga pagi. Siapa yang
                   membacanya ketika pagi, maka ia akan dilindungi hingga petang.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Al Hakim (1: 562)",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` أَمْسَيْنَا وَأَمْسَى الْمُلْكُ للهِ، وَالْحَمْدُ للهِ، لَا
                 إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ
                 وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ
@@ -83,7 +83,7 @@ export const ListPetang = [
     classNameCardFaedah:
       "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
     faedahnya: `  Meminta pada Allah kebaikan di malam ini dan kebaikan
                   sesudahnya, juga agar terhindar dari kejelekan di malam ini
                   dan kejelekan sesudahnya. Di dalamnya berisi pula permintaan
@@ -92,13 +92,13 @@ export const ListPetang = [
                   juga berisi permintaan agar terselamatkan dari siksa kubur dan
                   siksa neraka yang merupakan siksa terberat di hari kiamat
                   kelak.`,
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Muslim no. 2723",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا،وَبِكَ نَحْيَا،
                 وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيْرُ`,
     classNameLatin:
@@ -115,9 +115,10 @@ export const ListPetang = [
                   memasuki waktu pagi. Dengan rahmat dan pertolonganMu kami
                   hidup dan dengan kehendakMu kami mati. Dan kepada-Mu tempat
                   kembali (bagi semua makhluk).”`,
-    classNameHR: "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+    classNameHR:
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     classNameHRCard:
-      "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     HRinCard: "HR. Tirmidzi no. 3391 dan Abu Daud no. 5068",
   },
   {
@@ -127,7 +128,7 @@ export const ListPetang = [
     classNameTitle:
       "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: " Membaca Sayyidul Istighfar",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " اَللَّهُمَّ أَنْتَ رَبِّيْ لاَ إِلَـهَ إِلاَّ أَنْتَ،خَلَقْتَنِيْ وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوْءُ بِذَنْبِيْ فَاغْفِرْ لِيْ فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ",
     classNameLatin:
@@ -156,8 +157,8 @@ export const ListPetang = [
                   petang hari, maka ia termasuk penghuni surga. Barangsiapa yang
                   mengucapkannya di malam hari dalam keadaan penuh keyakinan,
                   lalu ia mati sebelum pagi, maka ia termasuk penghuni surga.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Abu Daud no. 5069.",
   },
   {
@@ -166,7 +167,7 @@ export const ListPetang = [
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 4x`,
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: `  اَللَّهُمَّ إِنِّيْ أَمْسَيْتُ أُشْهِدُكَ وَأُشْهِدُ حَمَلَةَ
                 عَرْشِكَ، وَمَلاَئِكَتَكَ وَجَمِيْعَ خَلْقِكَ، أَنَّكَ أَنْتَ
                 اللهُ لاَ إِلَـهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيْكَ لَكَ،
@@ -194,14 +195,14 @@ export const ListPetang = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya: `Barangsiapa yang mengucapkan dzikir ini ketika pagi dan petang
                   hari sebanyak empat kali, maka Allah akan membebaskan dirinya`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Abu Daud no. 5069.",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَاْلآخِرَةِ، اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِيْنِيْ وَدُنْيَايَ وَأَهْلِيْ وَمَالِيْ اللَّهُمَّ اسْتُرْ عَوْرَاتِى وَآمِنْ رَوْعَاتِى.اَللَّهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ، وَمِنْ خَلْفِيْ، وَعَنْ يَمِيْنِيْ وَعَنْ شِمَالِيْ، وَمِنْ فَوْقِيْ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ",
     classNameLatin:
@@ -228,14 +229,14 @@ export const ListPetang = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Rasulullah shallallahu ‘alaihi wa sallam tidaklah pernah meninggalkan do’a ini di pagi dan petang hari. Di dalamnya berisi perlindungan dan keselamatan pada agama, dunia, keluarga dan harta dari berbagai macam gangguan yang datang dari berbagai arah.",
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Abu Daud no. 5074",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " اَللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَاوَاتِ وَاْلأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ،أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ",
     classNameLatin:
@@ -261,8 +262,8 @@ export const ListPetang = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Do’a ini diajarkan oleh Rasulullah shallallahu ‘alaihi wa sallam pada Abu Bakr Ash Shiddiq radhiyallahu ‘anhu untuk dibaca pada pagi, petang dan saat beranjak tidur.",
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Tirmidzi no. 3392",
   },
   {
@@ -271,7 +272,7 @@ export const ListPetang = [
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       "بِسْمِ اللَّهِ الَّذِى لاَ يَضُرُّ مَعَ اسْمِهِ شَىْءٌ فِى الأَرْضِ وَلاَ فِى السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
     classNameLatin:
@@ -292,8 +293,8 @@ export const ListPetang = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       "Barangsiapa yang mengucapkan dzikir tersebut sebanyak tiga kali di pagi hari dan tiga kali di petang hari, maka tidak akan ada bahaya yang tiba-tiba memudaratkannya.",
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Abu Daud no. 5088",
   },
   {
@@ -302,7 +303,7 @@ export const ListPetang = [
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " رَضِيْتُ بِاللهِ رَبًّا، وَبِاْلإِسْلاَمِ دِيْنًا، وَبِمُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
     classNameLatin:
@@ -322,14 +323,14 @@ export const ListPetang = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       "Barangsiapa yang mengucapkan dzikir ini sebanyak tiga kali di  pagi hari dan tiga kali di petang hari, maka pantas baginya mendapatkan ridha Allah.",
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Abu Daud no. 5072, Tirmidzi no. 3389",
   },
   {
     classNameCountainer:
       "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ عَيْنٍ أَبَدًا",
     classNameLatin:
@@ -352,8 +353,8 @@ export const ListPetang = [
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Dzikir ini diajarkan oleh Nabi shallallahu ‘alaihi wa sallam pada Fathimah supaya diamalkan pagi dan petang.",
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Ibnu As Sunni no. 46",
   },
   {
@@ -362,7 +363,7 @@ export const ListPetang = [
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 100x`,
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: " سُبْحَانَ اللهِ وَبِحَمْدِهِ",
     classNameLatin:
       "p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7",
@@ -382,8 +383,8 @@ export const ListPetang = [
                   yang datang pada hari kiamat yang lebih baik dari yang ia
                   lakukan kecuali orang yang mengucapkan semisal atau lebih dari
                   itu.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Muslim no. 2692.",
   },
   {
@@ -392,7 +393,7 @@ export const ListPetang = [
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 10x`,
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ
                 الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ`,
     classNameLatin:
@@ -418,8 +419,8 @@ export const ListPetang = [
                   melindunginya dari gangguan setan hingg petang hari. Siapa
                   yang mengucapkannya di petang hari, ia akan mendapatkan
                   keutamaan semisal itu pula.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. An Nasai Al Kubra 6: 10",
   },
   {
@@ -431,7 +432,7 @@ export const ListPetang = [
     classNameTitle:
       "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: `  أَعُوْذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ`,
     classNameLatin:
       "p-3 font-Montserrat text-xs md:text-sm tracking-wide leading-7",
@@ -450,8 +451,8 @@ export const ListPetang = [
     faedahnya: `Siapa yang mengucapkannya di petang hari, niscaya tidak ada
                   racun atau binatang (seperti: kalajengking) yang
                   mencelakakannya di malam itu.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Ahmad 2: 290",
   },
 ];

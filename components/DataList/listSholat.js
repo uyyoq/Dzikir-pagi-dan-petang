@@ -5,7 +5,7 @@ export const ListSholat = [
     classNameTitle:
       "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "membaca Ayat kursi",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir:
       " اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ، لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَئُودُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ",
     classNameLatin:
@@ -39,14 +39,14 @@ export const ListSholat = [
     faedahnya: `Siapa yang membacanya ketika petang, maka ia akan dilindungi
                   (oleh Allah dari berbagai gangguan) hingga pagi. Siapa yang
                   membacanya ketika pagi, maka ia akan dilindungi hingga petang.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: " HR. Al Hakim (1: 562)",
   },
   {
     classNameCountainer:
       "justify-center w-11/12 md:w-10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: `   لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ
                 الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ،
                 اَللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ، وَلاَ مُعْطِيَ لِمَا
@@ -71,13 +71,13 @@ export const ListSholat = [
                   yang menyelamatkan dari siksaan). Hanya dari-Mu kekayaan dan
                   kemuliaan." `,
     classNameHRCard:
-      "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     HRinCard: "HR. Bukhari no. 844 dan Muslim no. 593",
   },
   {
     classNameCountainer:
       "justify-center w-11/12 md:w-10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: `لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ
                 الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ.
                 لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ، لاَ إِلَـهَ إِلاَّ
@@ -113,17 +113,17 @@ export const ListSholat = [
     faedahnya: `Dikatakan oleh ‘Abdullah bin Zubair, Nabi shallallahu ‘alaihi
                   wa sallam biasa membaca tahlil (laa ilaha illallah) di akhir
                   shalat.`,
-    classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
-    classNameHadist: "text-xs md:text-sm font-lato py-2",
+    classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
+    classNameHadist: "text-xs md:text-sm font-PTSerif py-2",
     HR: "HR. Muslim no. 594.",
     classNameHRCard:
-      "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     HRinCard: "HR. Tirmidzi no. 3391 dan Abu Daud no. 5068",
   },
   {
     classNameCountainer:
       "justify-center w-11/12 md:w-10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
-    classNameDzikir: "my-2 text-xl md:text-2xl",
+    classNameDzikir: "my-2 text-2xl md:text-3xl",
     dzikir: ` اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا
                 طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً`,
     classNameLatin:
@@ -139,7 +139,7 @@ export const ListSholat = [
                   (bagi diriku dan orang lain), rizki yang halal dan amal yang
                   diterima (di sisi-Mu dan mendapatkan ganjaran yang baik).”`,
     classNameHRCard:
-      "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
+      "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
     HRinCard: "HR. Ibnu Majah no. 925 dan Ahmad 6: 305, 322.",
   },
 ];
