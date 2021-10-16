@@ -133,7 +133,7 @@ export const ListPagi = [
                   aku mengakui dosaku. Oleh karena itu, ampunilah aku.
                   Sesungguhnya tiada yang mengampuni dosa kecuali Engkau.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-6/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Barangsiapa yang mengucapkan dzikir ini ketika pagi dan petang hari sebanyak empat kali, maka Allah akan membebaskan dirinya",
@@ -171,7 +171,7 @@ export const ListPagi = [
                   sekutu bagi-Mu dan sesungguhnya Muhammad adalah hamba dan
                   utusan-Mu.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya: `Barangsiapa yang mengucapkan dzikir ini ketika pagi dan petang
                   hari sebanyak empat kali, maka Allah akan membebaskan dirinya`,
@@ -205,7 +205,7 @@ export const ListPagi = [
                   tidak disambar dari bawahku (oleh ular atau tenggelam dalam
                   bumi dan lain-lain yang membuat aku jatuh).”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Rasulullah shallallahu ‘alaihi wa sallam tidaklah pernah meninggalkan do’a ini di pagi dan petang hari. Di dalamnya berisi perlindungan dan keselamatan pada agama, dunia, keluarga dan harta dari berbagai macam gangguan yang datang dari berbagai arah.",
@@ -238,7 +238,7 @@ export const ListPagi = [
                   dari berbuat kejelekan terhadap diriku atau menyeretnya kepada
                   seorang muslim.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Do’a ini diajarkan oleh Rasulullah shallallahu ‘alaihi wa sallam pada Abu Bakr Ash Shiddiq radhiyallahu ‘anhu untuk dibaca pada pagi, petang dan saat beranjak tidur.",
@@ -269,7 +269,7 @@ export const ListPagi = [
                   dan langit tidak akan berbahaya, Dia-lah Yang Maha Mendengar
                   lagi Maha Mengetahui.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       "Barangsiapa yang mengucapkan dzikir tersebut sebanyak tiga kali di pagi hari dan tiga kali di petang hari, maka tidak akan ada bahaya yang tiba-tiba memudaratkannya.",

@@ -76,7 +76,7 @@ const SwiperSholat = () => {
                 >
                   <SwiperSlide>
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-5 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Ikhlas
                         </p>
@@ -112,7 +112,7 @@ const SwiperSholat = () => {
                   <SwiperSlide>
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-5 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Falaq
                         </p>
@@ -151,7 +151,7 @@ const SwiperSholat = () => {
                   <SwiperSlide>
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-5 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat An-Naas
                         </p>
@@ -187,7 +187,7 @@ const SwiperSholat = () => {
                   </SwiperSlide>
                 </Swiper>
               </div>
-              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-5/12 mx-auto">
+              <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto">
                 <p className="pb-3 font-MarckScript text-base md:text-lg">
                   Faedah
                 </p>

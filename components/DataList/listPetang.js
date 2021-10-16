@@ -81,7 +81,7 @@ export const ListPetang = [
                   di hari tua. Wahai Rabbku, aku berlindung kepada-Mu dari
                   siksaan di neraka dan siksaan di kubur.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-10/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     classNameIsiFaedah: "text-justify font-PTSerif text-xs md:text-sm",
     faedahnya: `  Meminta pada Allah kebaikan di malam ini dan kebaikan
@@ -150,7 +150,7 @@ export const ListPetang = [
                   aku mengakui dosaku. Oleh karena itu, ampunilah aku.
                   Sesungguhnya tiada yang mengampuni dosa kecuali Engkau.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-6/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-9/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya: `Barangsiapa mengucapkan dzikir ini di siang hari dalam keadaan
                   penuh keyakinan, lalu ia mati pada hari tersebut sebelum
@@ -225,7 +225,7 @@ export const ListPetang = [
                   tidak disambar dari bawahku (oleh ular atau tenggelam dalam
                   bumi dan lain-lain yang membuat aku jatuh).”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Rasulullah shallallahu ‘alaihi wa sallam tidaklah pernah meninggalkan do’a ini di pagi dan petang hari. Di dalamnya berisi perlindungan dan keselamatan pada agama, dunia, keluarga dan harta dari berbagai macam gangguan yang datang dari berbagai arah.",
@@ -258,7 +258,7 @@ export const ListPetang = [
                   dari berbuat kejelekan terhadap diriku atau menyeretnya kepada
                   seorang muslim.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       " Do’a ini diajarkan oleh Rasulullah shallallahu ‘alaihi wa sallam pada Abu Bakr Ash Shiddiq radhiyallahu ‘anhu untuk dibaca pada pagi, petang dan saat beranjak tidur.",
@@ -289,7 +289,7 @@ export const ListPetang = [
                   dan langit tidak akan berbahaya, Dia-lah Yang Maha Mendengar
                   lagi Maha Mengetahui.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       "Barangsiapa yang mengucapkan dzikir tersebut sebanyak tiga kali di pagi hari dan tiga kali di petang hari, maka tidak akan ada bahaya yang tiba-tiba memudaratkannya.",
@@ -319,7 +319,7 @@ export const ListPetang = [
     terjemahan: `“Aku ridha Allah sebagai Rabb, Islam sebagai agama dan
                   Muhammad shallallahu ‘alaihi wa sallam sebagai nabi.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-7/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-8/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya:
       "Barangsiapa yang mengucapkan dzikir ini sebanyak tiga kali di  pagi hari dan tiga kali di petang hari, maka pantas baginya mendapatkan ridha Allah.",
@@ -410,7 +410,7 @@ export const ListPetang = [
                   tidak ada sekutu bagiNya. Bagi-Nya kerajaan dan segala pujian.
                   Dia-lah yang berkuasa atas segala sesuatu.”`,
     classNameCardFaedah:
-      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-9/12 mx-auto",
+      "border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-10/12 mx-auto",
     classNameFaedahtitle: "pb-3 font-MarckScript text-base md:text-lg",
     faedahnya: `  Barangsiapa yang membaca dzikir tersebut di pagi hari sebanyak
                   sepuluh kali, Allah akan mencatatkan baginya 10 kebaikan,
