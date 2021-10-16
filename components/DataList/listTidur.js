@@ -21,7 +21,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `  “Allah, tidak ada ilah (yang berhak disembah) melainkan Dia,
                   yang hidup kekal lagi terus menerus mengurus (makhluk-Nya).
@@ -72,7 +73,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Rasul telah beriman kepada Al-Qur’an yang diturunkan
                   kepadanya dari Rabbnya, demikian pula orang-orang yang
@@ -118,7 +120,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Dengan nama Engkau, wahai Rabbku, aku meletakkan lambungku.
                   Dan dengan namaMu pula aku bangun daripadanya. Apabila Engkau
@@ -153,7 +156,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     terjemahan: `“Ya Allah, sesungguhnya Engkau menciptakan diriku, dan
                   Engkaulah yang akan mematikannya. Mati dan hidupnya hanya
                   milik-Mu. Apabila Engkau menghidupkannya, maka peliharalah
@@ -176,7 +180,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: ` “Ya Allah, jauhkanlah aku dari siksaanMu pada hari Engkau
                   membangkitkan hamba-hambaMu (yaitu pada hari kiamat).”`,
@@ -202,7 +207,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     terjemahan: `“Dengan namaMu, ya Allah! Aku mati dan hidup.”`,
     classNameHRCard:
       "text-xs md:text-sm font-PTSerif text-gray-700 text-center py-3",
@@ -228,7 +234,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: ` “Ya Allah, Yang Maha Mengetahui yang ghaib dan yang nyata,
                   wahai Rabb pencipta langit dan bumi, Rabb segala sesuatu dan
@@ -275,7 +282,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Ya Allah, Rabb yang menguasai langit yang tujuh, Rabb yang
                   menguasai ‘Arsy yang agung, Rabb kami dan Rabb segala sesuatu.
@@ -312,7 +320,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Ya Allah, aku menyerahkan diriku kepadaMu, aku menyerahkan
                   urusanku kepadaMu, aku menghadapkan wajahku kepadaMu, aku
@@ -348,7 +357,8 @@ export const ListTidur = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri
                   (tidak butuh segala sesuatu), dengan rahmat-Mu aku minta

@@ -21,7 +21,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `  “Allah, tidak ada ilah (yang berhak disembah) melainkan Dia,
                   yang hidup kekal lagi terus menerus mengurus (makhluk-Nya).
@@ -68,7 +69,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: ` “Kami telah memasuki waktu petang dan kerajaan hanya milik
                   Allah, segala puji bagi Allah. Tidak ada ilah (yang berhak
@@ -109,7 +111,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     terjemahan: ` “Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki
                   waktu petang, dan dengan rahmat dan pertolongan-Mu kami
                   memasuki waktu pagi. Dengan rahmat dan pertolonganMu kami
@@ -139,7 +142,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: ` “Ya Allah, Engkau adalah Rabbku, tidak ada ilah yang berhak
                   disembah kecuali Engkau, Engkaulah yang menciptakanku. Aku
@@ -182,7 +186,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Ya Allah, sesungguhnya aku di waktu pagi ini mempersaksikan
                   Engkau, malaikat yang memikul ‘Arys-Mu, malaikat-malaikat dan
@@ -213,7 +218,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: ` “Ya Allah, sesungguhnya aku memohon kebajikan dan keselamatan
                   di dunia dan akhirat. Ya Allah, sesungguhnya aku memohon
@@ -247,7 +253,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: ` “Ya Allah, Yang Maha Mengetahui yang ghaib dan yang nyata,
                   wahai Rabb pencipta langit dan bumi, Rabb segala sesuatu dan
@@ -283,7 +290,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Dengan nama Allah yang bila disebut, segala sesuatu di bumi
                   dan langit tidak akan berbahaya, Dia-lah Yang Maha Mendengar
@@ -314,7 +322,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Aku ridha Allah sebagai Rabb, Islam sebagai agama dan
                   Muhammad shallallahu ‘alaihi wa sallam sebagai nabi.”`,
@@ -341,7 +350,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `  “Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri
                   (tidak butuh segala sesuatu), dengan rahmat-Mu aku minta
@@ -372,7 +382,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Maha suci Allah, aku memuji-Nya.”`,
     classNameCardFaedah:
@@ -404,7 +415,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: ` “Tidak ada ilah yang berhak disembah selain Allah semata,
                   tidak ada sekutu bagiNya. Bagi-Nya kerajaan dan segala pujian.
@@ -441,7 +453,8 @@ export const ListPetang = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Aku berlindung dengan kalimat-kalimat Allah yang sempurna
                   dari kejahatan makhluk yang diciptakanNya.”`,

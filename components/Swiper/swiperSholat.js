@@ -38,7 +38,7 @@ const SwiperSholat = () => {
                 <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                   Artinya
                 </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
+                <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                   “Aku minta ampun kepada Allah,” (3x). “Ya Allah, Engkau
                   pemberi keselamatan, dan dariMu keselamatan, Maha Suci Engkau,
                   wahai Tuhan Yang Pemilik Keagungan dan Kemuliaan.”
@@ -98,7 +98,7 @@ const SwiperSholat = () => {
                         <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                           Artinya
                         </p>
-                        <p className="text-xs md:text-sm font-RobotoMono italic">
+                        <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                           “Dengan menyebut nama Allah Yang Maha Pengasih lagi
                           Maha Penyayang. Katakanlah: Dialah Allah, Yang Maha
                           Esa. Allah adalah ilah yang bergantung kepada-Nya
@@ -136,7 +136,7 @@ const SwiperSholat = () => {
                         <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                           Artinya
                         </p>
-                        <p className="text-xs md:text-sm font-RobotoMono italic">
+                        <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                           “Dengan menyebut nama Allah Yang Maha Pengasih lagi
                           Maha Penyayang. Katakanlah: Aku berlindung kepada Rabb
                           yang menguasai Shubuh, dari kejahatan makhluk-Nya, dan
@@ -174,7 +174,7 @@ const SwiperSholat = () => {
                         <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                           Artinya
                         </p>
-                        <p className="text-xs md:text-sm font-RobotoMono italic">
+                        <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                           “Dengan menyebut nama Allah Yang Maha Pengasih lagi
                           Maha Penyayang. Katakanlah: Aku berlindung kepada Rabb
                           manusia. Raja manusia. Sembahan manusia, dari
@@ -219,7 +219,7 @@ const SwiperSholat = () => {
                 <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                   Artinya
                 </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
+                <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                   “Maha Suci Allah (33 x), segala puji bagi Allah (33 x), Allah
                   Maha Besar (33 x). Tidak ada Rabb (yang berhak disembah)
                   kecuali Allah Yang Maha Esa, tidak ada sekutu bagi-Nya.

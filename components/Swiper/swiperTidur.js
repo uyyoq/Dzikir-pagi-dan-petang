@@ -68,7 +68,7 @@ const SwiperTidur = () => {
                         <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                           Artinya
                         </p>
-                        <p className="text-xs md:text-sm font-RobotoMono italic">
+                        <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                           “Dengan menyebut nama Allah Yang Maha Pengasih lagi
                           Maha Penyayang. Katakanlah: Dialah Allah, Yang Maha
                           Esa. Allah adalah ilah yang bergantung kepada-Nya
@@ -106,7 +106,7 @@ const SwiperTidur = () => {
                         <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                           Artinya
                         </p>
-                        <p className="text-xs md:text-sm font-RobotoMono italic">
+                        <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                           “Dengan menyebut nama Allah Yang Maha Pengasih lagi
                           Maha Penyayang. Katakanlah: Aku berlindung kepada Rabb
                           yang menguasai Shubuh, dari kejahatan makhluk-Nya, dan
@@ -178,7 +178,7 @@ const SwiperTidur = () => {
                 <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                   Artinya
                 </p>
-                <p className="text-xs md:text-sm font-RobotoMono italic">
+                <p className="text-xs md:text-sm font-RobotoMono text-gray-800 italic">
                   “Maha Suci Allah (33 x), segala puji bagi Allah (33 x), Allah
                   Maha Besar (34 x)."
                 </p>

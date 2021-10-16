@@ -21,7 +21,8 @@ export const ListSholat = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `  “Allah, tidak ada ilah (yang berhak disembah) melainkan Dia,
                   yang hidup kekal lagi terus menerus mengurus (makhluk-Nya).
@@ -61,7 +62,8 @@ export const ListSholat = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     terjemahan: `“Tiada Rabb yang berhak disembah selain Allah Yang Maha Esa,
                   tidak ada sekutu bagi-Nya. Bagi-Nya puji dan bagi-Nya
                   kerajaan. Dia Maha Kuasa atas segala sesuatu. Ya Allah, tidak
@@ -96,7 +98,8 @@ export const ListSholat = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     titleFaedah: "Faedah",
     terjemahan: `“Tiada Rabb (yang berhak disembah) kecuali Allah, Yang Maha
                   Esa, tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan pujaan.
@@ -134,7 +137,8 @@ export const ListSholat = [
       "shadow rounded bg-gray-100 border-l-8 border-gray-300 p-5 m-5 mx-auto text-left",
     classNameArtinya:
       "pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base",
-    classNameTerjemahan: "text-xs md:text-sm font-RobotoMono italic",
+    classNameTerjemahan:
+      "text-xs md:text-sm font-RobotoMono text-gray-800 italic",
     terjemahan: `“Ya Allah, sungguh aku memohon kepada-Mu ilmu yang bermanfaat
                   (bagi diriku dan orang lain), rizki yang halal dan amal yang
                   diterima (di sisi-Mu dan mendapatkan ganjaran yang baik).”`,
