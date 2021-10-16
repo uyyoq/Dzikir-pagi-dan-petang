@@ -61,8 +61,8 @@ const Swipagi = () => {
                 >
                   <SwiperSlide>
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
-                        <p className="p-4 lg:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-1 lg:px-8 py-1 md:py-3">
+                        <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Ikhlas
                         </p>
                         <p className="bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white my-2 md:my-4 md:mb-2 py-2 md:py-1 md:px-2 mx-20 md:mx-0 text-xs md:text-sm ">
@@ -97,7 +97,7 @@ const Swipagi = () => {
                   <SwiperSlide>
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-1 lg:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Falaq
                         </p>
@@ -136,7 +136,7 @@ const Swipagi = () => {
                   <SwiperSlide>
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-1 lg:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat An-Naas
                         </p>

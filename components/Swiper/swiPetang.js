@@ -61,7 +61,7 @@ const SwiPetang = () => {
                 >
                   <SwiperSlide>
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-1 lg:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Ikhlas
                         </p>
@@ -97,7 +97,7 @@ const SwiPetang = () => {
                   <SwiperSlide>
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-1 lg:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Falaq
                         </p>
@@ -136,7 +136,7 @@ const SwiPetang = () => {
                   <SwiperSlide>
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
-                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-8 py-1 md:py-3">
+                      <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-1 lg:px-8 py-1 md:py-3">
                         <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat An-Naas
                         </p>
