@@ -38,7 +38,7 @@ module.exports = {
         "Marck Script",
         "Roboto Mono",
         "Josefin Sans",
-        ["Amiri"
+        ["Amiri"],
       ],
     },
 
