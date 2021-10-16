@@ -1,9 +1,9 @@
 export const ListTidur = [
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md px:5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md px:5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "membaca Ayat kursi",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
@@ -45,9 +45,9 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "Membaca Surat Al Baqarah ayat 285-286",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: `آَمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ
@@ -104,7 +104,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: `بِاسْمِكَ رَبِّيْ وَضَعْتُ جَنْبِيْ، وَبِكَ أَرْفَعُهُ، فَإِنْ
                 أَمْسَكْتَ نَفْسِيْ فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا
@@ -138,7 +138,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` اَللَّهُمَّ إِنَّكَ خَلَقْتَ نَفْسِيْ وَأَنْتَ تَوَفَّاهَا، لَكَ
                 مَمَاتُهَا وَمَحْيَاهَا، إِنْ أَحْيَيْتَهَا فَاحْفَظْهَا، وَإِنْ
@@ -166,7 +166,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` اَللَّهُمَّ قِنِيْ عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ`,
     classNameLatin:
@@ -192,7 +192,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: `بِاسْمِكَ اللَّهُمَّ أَمُوْتُ وَأَحْيَا`,
     classNameLatin:
@@ -210,7 +210,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` اَللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ
                 السَّمَاوَاتِ وَاْلأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ،
@@ -250,7 +250,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` اَللَّهُمَّ رَبَّ السَّمَاوَاتِ السَّبْعِ وَرَبَّ الْعَرْشِ
                 الْعَظِيْمِ، رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ، فَالِقَ الْحَبِّ
@@ -295,7 +295,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` اَللَّهُمَّ أَسْلَمْتُ نَفْسِيْ إِلَيْكَ، وَفَوَّضْتُ أَمْرِيْ
                 إِلَيْكَ، وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِيْ
@@ -335,7 +335,7 @@ export const ListTidur = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ
                 لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ

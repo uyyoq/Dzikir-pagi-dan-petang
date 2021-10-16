@@ -1,14 +1,14 @@
 import * as yup from "yup";
 
 export const ContactS = yup.object().shape({
-  fullName: yup.string().required("Nama lengkap wajib diisi"),
+  fullName: yup.string().required("nama lengkap wajib diisi"),
   email: yup
     .string()
-    .email("Email tidak valid")
-    .required("Email wajib diisi"),
+    .email("email tidak valid")
+    .required("email wajib diisi"),
   message: yup
     .string()
-    .required("Pesan wajib diisi")
-    .min(10, "Pesan min 10 karakter")
+    .required("pesan wajib diisi")
+    .min(10, "pesan min 10 karakter")
     .max(150, "max 150 karekter"),
 });

@@ -1,9 +1,9 @@
 export const ListSholat = [
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md px:5 :md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-11/12 md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md px:5 :md:4x-10 m-14 md:shadow-xl md:rounded",
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "membaca Ayat kursi",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
@@ -45,7 +45,7 @@ export const ListSholat = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-11/12 md:w-10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: `   لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ
                 الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ،
@@ -76,7 +76,7 @@ export const ListSholat = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-11/12 md:w-10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: `لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ
                 الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ.
@@ -122,7 +122,7 @@ export const ListSholat = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-11/12 md:w-10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا
                 طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً`,

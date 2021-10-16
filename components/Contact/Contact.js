@@ -22,14 +22,14 @@ const Contact = () => {
     <div className="bg-everest">
       {/* RESPONSIVE MOBILE */}
       <div className="w-full md:hidden bg-everest">
-        <div className="w-full flex flex-col justify-center">
+        <div className="w-11/12 flex flex-col justify-center">
           <p className="font-bold text-gray-800 font-3x text-center font-JosefinSans">
             Hubungi Kami
           </p>
           <form className="mx-10">
             <div className="mt-5">
               <input
-                className="appearance-none bg-gray-100 rounded-lg py-4 px-5 text-sm focus:outline-none w-full"
+                className="appearance-none bg-gray-100 rounded-lg py-4 px-3 text-xs focus:outline-none w-full"
                 type="text"
                 name="fullName"
                 placeholder="Nama Lengkap"
@@ -44,7 +44,7 @@ const Contact = () => {
 
             <div className="my-2">
               <input
-                className="appearance-none bg-gray-100 rounded-lg py-4 px-5 text-sm focus:outline-none w-full"
+                className="appearance-none bg-gray-100 rounded-lg py-4 px-3 text-xs focus:outline-none w-full"
                 type="email"
                 name="email"
                 placeholder="Alamat Email"
@@ -61,7 +61,7 @@ const Contact = () => {
 
             <div className="my-2">
               <textarea
-                className="appearance-none bg-gray-100 rounded-lg py-4 px-3 text-sm focus:outline-none w-full"
+                className="appearance-none bg-gray-100 rounded-lg py-4 px-3 text-xs focus:outline-none w-full"
                 type="text"
                 name="message"
                 rows="3"
@@ -80,7 +80,7 @@ const Contact = () => {
               <button
                 onClick={handleSubmit(onSubmit)}
                 type="submit"
-                className="focus:bg-gray-300 mt-1 bg-gray-100 text-blue-900 font-bold rounded-lg py-2 px-4 text-sm focus:outline-none"
+                className="focus:bg-gray-300 mt-1 bg-gray-100 text-blue-900 font-bold rounded-lg py-2 px-4 text-xs focus:outline-none"
               >
                 Kirim
               </button>
@@ -92,8 +92,8 @@ const Contact = () => {
       <div className="w-full hidden md:flex md:justify-center lg:justify-start">
         <div className="flex w-2/6 justify-end md:mx-1">
           <img
-            src="/background/man.svg"
-            className="lg:w-56 md:40 h-auto"
+            src="/background/flo.svg"
+            className="lg:w-60 md:40 h-auto"
             alt="man"
           />
         </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                 className="appearance-none bg-gray-100 rounded-lg py-4 px-3 text-sm focus:outline-none w-full"
                 type="text"
                 name="message"
-                rows="5"
+                rows="4"
                 cols="35"
                 placeholder="Tulis Pesan"
                 {...register("message", { required: true })}

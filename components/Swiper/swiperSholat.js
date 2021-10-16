@@ -61,8 +61,8 @@ const SwiperSholat = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="justify-center w-full lg:w-8/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
-              <p className="font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase">
+            <div className="justify-center w-full lg:w-8/12 mx-auto pb-10 px-10 m-14 md:shadow-xl md:rounded">
+              <p className="font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase">
                 Membaca surat Al-Ikhlas, Al-Falaq,dan An-Naas
               </p>
               <div>
@@ -77,7 +77,7 @@ const SwiperSholat = () => {
                   <SwiperSlide>
                     <div className="w-full md:w-8/12 mx-auto">
                       <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-5 py-1 md:py-3">
-                        <p className="p-4 md:px-20 uppercase text-indigo-900 font-bold">
+                        <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Ikhlas
                         </p>
                         <p className="bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white my-2 md:my-4 md:mb-2 py-2 md:py-1 md:px-2 mx-20 md:mx-0 text-xs md:text-sm ">
@@ -113,7 +113,7 @@ const SwiperSholat = () => {
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
                       <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-5 py-1 md:py-3">
-                        <p className="p-4 md:px-20 uppercase text-indigo-900 font-bold">
+                        <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat Al-Falaq
                         </p>
                         <p className="bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white my-2 md:my-4 md:mb-2 py-2 md:py-1 md:px-2 mx-20 md:mx-0 text-xs md:text-sm ">
@@ -152,7 +152,7 @@ const SwiperSholat = () => {
                     {" "}
                     <div className="w-full md:w-8/12 mx-auto">
                       <div className="flex flex-col md:flex-row justify-center md:justify-end md:px-5 py-1 md:py-3">
-                        <p className="p-4 md:px-20 uppercase text-indigo-900 font-bold">
+                        <p className="p-4 md:px-20 uppercase text-xs md:text-sm text-indigo-900 font-bold">
                           surat An-Naas
                         </p>
                         <p className="bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white my-2 md:my-4 md:mb-2 py-2 md:py-1 md:px-2 mx-20 md:mx-0 text-xs md:text-sm ">
@@ -174,7 +174,7 @@ const SwiperSholat = () => {
                         <p className="pb-3 font-semibold text-gray-900 font-mono text-sm md:text-base">
                           Artinya
                         </p>
-                        <p className="text-justify font-lato text-xs md:text-sm">
+                        <p className="text-xs md:text-sm font-RobotoMono italic">
                           “Dengan menyebut nama Allah Yang Maha Pengasih lagi
                           Maha Penyayang. Katakanlah: Aku berlindung kepada Rabb
                           manusia. Raja manusia. Sembahan manusia, dari
@@ -202,7 +202,7 @@ const SwiperSholat = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="justify-center w-full lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
+            <div className="justify-center w-11/12 md:10/12 lg:w-6/12 mx-auto pb-10 px:5 md:px-10 m-14 md:shadow-xl md:rounded">
               <p className="my-2 text-xl md:text-2xl">
                 <p> (33x) سُبْحَانَ اللهِ </p>
                 <p className="py-2"> (33x) اَلْحَمْدُ لِلَّهِ</p>

@@ -1,9 +1,9 @@
 export const ListPetang = [
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "membaca Ayat kursi",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
@@ -45,7 +45,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` أَمْسَيْنَا وَأَمْسَى الْمُلْكُ للهِ، وَالْحَمْدُ للهِ، لَا
                 إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ
@@ -97,7 +97,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: ` اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا،وَبِكَ نَحْيَا،
                 وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيْرُ`,
@@ -122,10 +122,10 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
 
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: " Membaca Sayyidul Istighfar",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
@@ -162,7 +162,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 4x`,
@@ -200,7 +200,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَاْلآخِرَةِ، اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِيْنِيْ وَدُنْيَايَ وَأَهْلِيْ وَمَالِيْ اللَّهُمَّ اسْتُرْ عَوْرَاتِى وَآمِنْ رَوْعَاتِى.اَللَّهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ، وَمِنْ خَلْفِيْ، وَعَنْ يَمِيْنِيْ وَعَنْ شِمَالِيْ، وَمِنْ فَوْقِيْ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ",
@@ -234,7 +234,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " اَللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَاوَاتِ وَاْلأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ،أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ",
@@ -267,7 +267,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
@@ -298,7 +298,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
@@ -328,7 +328,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ عَيْنٍ أَبَدًا",
@@ -358,7 +358,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 100x`,
@@ -388,7 +388,7 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 10x`,
@@ -424,12 +424,12 @@ export const ListPetang = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 md:px-10 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir: `  أَعُوْذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ`,

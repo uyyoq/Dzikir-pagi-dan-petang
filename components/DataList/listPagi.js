@@ -1,9 +1,9 @@
 export const ListPagi = [
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: "membaca Ayat kursi",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
@@ -45,7 +45,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ. رَبِّ أَسْأَلُكَ خَيْرَ مَا فِيْ هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوْذُ بِكَ مِنْ شَرِّ مَا فِيْ هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ، رَبِّ أَعُوْذُ بِكَ مِنَ الْكَسَلِ وَسُوْءِ الْكِبَرِ، رَبِّ أَعُوْذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ ",
@@ -80,7 +80,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " اَللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ  نَحْيَا، وَبِكَ نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ",
@@ -101,14 +101,14 @@ export const ListPagi = [
     classNameHR: "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
     classNameHRCard:
       "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
-    HRinCard: " HR. Tirmidzi no. 3391 dan Abu Daud no. 5068",
+    HRinCard: " HR. Tirmidzi no. 3391",
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
 
     classNameTitle:
-      "font-JosefinSans font-bold font-xl text-gray-800 pb-3 uppercase",
+      "font-JosefinSans font-bold text-sm text-gray-800 pb-3 uppercase",
     title: " Membaca Sayyidul Istighfar",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
@@ -142,7 +142,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 4x`,
@@ -180,7 +180,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَاْلآخِرَةِ، اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِيْنِيْ وَدُنْيَايَ وَأَهْلِيْ وَمَالِيْ اللَّهُمَّ اسْتُرْ عَوْرَاتِى وَآمِنْ رَوْعَاتِى.اَللَّهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ، وَمِنْ خَلْفِيْ، وَعَنْ يَمِيْنِيْ وَعَنْ شِمَالِيْ، وَمِنْ فَوْقِيْ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ",
@@ -214,7 +214,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " اَللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَاوَاتِ وَاْلأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ،أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرَّهُ إِلَى مُسْلِمٍ",
@@ -247,7 +247,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
@@ -278,7 +278,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
@@ -304,11 +304,11 @@ export const ListPagi = [
       "Barangsiapa yang mengucapkan dzikir ini sebanyak tiga kali di  pagi hari dan tiga kali di petang hari, maka pantas baginya mendapatkan ridha Allah.",
     classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
     classNameHadist: "text-xs md:text-sm font-lato py-2",
-    HR: "HR. Abu Daud no. 5072, Tirmidzi no. 3389",
+    HR: "HR. Abu Daud no. 5072",
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " يَا حَيُّ يَا قَيُّوْمُ بِرَحْمَتِكَ أَسْتَغِيْثُ، وَأَصْلِحْ لِيْ شَأْنِيْ كُلَّهُ وَلاَ تَكِلْنِيْ إِلَى نَفْسِيْ طَرْفَةَ عَيْنٍ أَبَدًا",
@@ -338,7 +338,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     classNameDzikir: "my-2 text-xl md:text-2xl",
     dzikir:
       " أَصْبَحْنَا عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ، وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ،حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ",
@@ -362,7 +362,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 100x`,
@@ -392,7 +392,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 10x`,
@@ -428,7 +428,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 100x`,
@@ -460,11 +460,11 @@ export const ListPagi = [
                   itu.`,
     classNameIsiFaedah: "text-justify font-lato text-xs md:text-sm",
     classNameHadist: "text-xs md:text-sm font-lato py-2",
-    HR: "HR. Bukhari no. 3293 dan Muslim no. 2691",
+    HR: "HR. Bukhari no. 3293",
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 3x`,
@@ -499,7 +499,7 @@ export const ListPagi = [
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-14 md:shadow-xl md:rounded",
     dzikir: `اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا
                 طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً`,
     classNameDzikir: "my-2 text-xl md:text-2xl",
@@ -517,11 +517,11 @@ export const ListPagi = [
                   diterima (di sisi-Mu dan mendapatkan ganjaran yang baik).”`,
     classNameHRCard:
       "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
-    HRinCard: "HR. Ibnu Majah no. 925 dan Ahmad 6: 305, 322",
+    HRinCard: "HR. Ibnu Majah no. 925",
   },
   {
     classNameCountainer:
-      "justify-center w-full lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
+      "justify-center w-full md:w-10/12 lg:w-6/12 mx-auto pb-10 px-5 md:px-10 m-10 md:shadow-xl md:rounded",
     classNameCardRepeat: `flex justify-center md:justify-end md:px-5 py-1 md:py-3`,
     classNameRepeat: `bg-blue-800 shadow-md text-white font-bold rounded-xl hover:text-blue-800 hover:bg-white px-2 md:px-3 py-2 my-2 text-xs md:text-sm`,
     titleRepeat: `Dibaca 100x`,
@@ -538,6 +538,6 @@ export const ListPagi = [
     terjemahan: `“Aku memohon ampun kepada Allah dan bertobat kepada-Nya.”`,
     classNameHRCard:
       "text-xs md:text-sm font-lato text-gray-700 text-center py-3",
-    HRinCard: "HR. Bukhari no. 6307 dan Muslim no. 2702",
+    HRinCard: "HR. Bukhari no. 6307",
   },
 ];

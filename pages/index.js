@@ -25,25 +25,25 @@ export default function Home() {
             <h1 className="md:w-7/12 w-10/12 mx-auto font-bold text-xl md:text-2xl lg:text-4xl font-JosefinSans">
               memanfaatkan waktu sebaik baiknya untuk berdzikir kepada ﷲ
             </h1>
-            <p className="lg:text-sm text-xs mx-5 lg:mx-0 font-Montserrat">
+            <p className="lg:text-sm text-xs md:text-sm mx-5 lg:mx-0 font-Montserrat">
               Zikr web menghadirkan bacaan dzikir yang mudah dan cepat untuk
               dibaca setiap hari
             </p>
           </div>
-          <div className="absolute flex md:flex-wrap mx-auto justify-center shadow rounded-3xl top-1/2 md:top-1/3 lg:top-1/2 height-1/2 bg-white lg:w-6/12 w-10/12 md:w-10/12 flex-col md:flex-row text-gray-7">
+          <div className="absolute grid grid-cols-2 shadow rounded-2xl top-1/2 md:top-1/3 lg:top-1/2 bg-white lg:w-6/12 w-10/12 md:w-7/12 text-gray-7">
             <Link href="/pagi">
-              <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                <img src="/icon/sun.svg" className="w-auto h-8 md:h-10" />
-                <p className="text-center font-semibold text-blue-900 font- pt-3">
+              <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20 lg:m-5 md:m-10 p-3 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
+                <img src="/icon/sun.svg" className="w-auto h-5 md:h-10" />
+                <p className="text-center text-xs md:text-sm text-blue-900 pt-2 md:pt-3">
                   dzikir pagi
                 </p>
               </a>
             </Link>
             <div>
               <Link href="/petang">
-                <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                  <img src="/icon/sunrise.svg" className="w-auto h-6 md:h-8" />
-                  <p className="text-center font-semibold text-blue-900 pt-3">
+                <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20 lg:m-5 md:m-10 p-3 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
+                  <img src="/icon/sunrise.svg" className="w-auto h-4 md:h-8" />
+                  <p className="text-center text-xs md:text-sm text-blue-900 pt-2 md:pt-3">
                     dzikir petang
                   </p>
                 </a>
@@ -51,17 +51,17 @@ export default function Home() {
             </div>
 
             <Link href="/sholat">
-              <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                <img src="/icon/cloud.svg" className="w-auto h-8 md:h-10" />
-                <p className="text-center font-semibold  text-blue-900 pt-3">
+              <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20 lg:m-5 md:m-10 p-2 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
+                <img src="/icon/cloud.svg" className="w-auto h-5 md:h-10" />
+                <p className="text-center text-xs md:text-sm text-blue-900 pt-2 md:pt-3">
                   dzikir setelah sholat
                 </p>
               </a>
             </Link>
             <Link href="/tidur">
-              <a className="flex flex-col items-center md:py-10 md:px-10 md:m-10 p-5 m-6 shadow-md rounded-3xl cursor-pointer bg-gray-100 hover:bg-gray-200">
-                <img src="/icon/sleep.svg" className="w-auto h-6 md:h-7" />
-                <p className="text-center font-semibold  text-blue-900 pt-3">
+              <a className="flex flex-col justify-center items-center md:py-6 lg:mx-20  lg:m-5 md:m-10 p-2 m-5 shadow-md rounded-md cursor-pointer bg-gray-100 hover:bg-gray-200">
+                <img src="/icon/sleep.svg" className="w-auto h-4 md:h-8" />
+                <p className="text-center text-xs md:text-sm  text-blue-900 pt-2 md:pt-3">
                   dzikir sebelum tidur
                 </p>
               </a>
@@ -73,12 +73,12 @@ export default function Home() {
             يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا.
             وَسَبِّحُوهُ بُكْرَةً وَأَصِيلا
           </p>
-          <p className="text-xs text-justify md:text-base py-5 font-RobotoMono italic">
+          <p className="text-xs  text-justify md:text-base py-5 font-RobotoMono italic">
             "Wahai orang-orang yang beriman! Ingatlah kepada Allâh, dengan
             mengingat (nama-Nya) sebanyak-banyaknya, dan bertasbihlah kepada-Nya
             pada waktu pagi dan petang.”
           </p>
-          <p className="text-xs md:text-sm text-gray-900 text-center font-lato">
+          <p className="text-xs  md:text-sm text-gray-900 text-center font-lato">
             [al-Ahzâb:41-42]
           </p>
         </div> */}
@@ -91,7 +91,7 @@ export default function Home() {
         `}</style>
       </main>
 
-      <footer className="pt-96">
+      <footer className="pt-24 md:pt-72 lg:pt-80">
         <Contact />
         <Footer />
       </footer>
