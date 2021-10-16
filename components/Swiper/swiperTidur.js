@@ -159,7 +159,7 @@ const SwiperTidur = () => {
               </div>
               <div className="border-r-2 border-b-4 bg-blue-100 border-blue-300 m-4 p-5 shadow rounded md:w-5/12 mx-auto">
                 <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Bukhari no. 5017 dan Muslim no. 2192
+                  HR. Bukhari no. 5017
                 </p>
               </div>
             </div>
@@ -194,7 +194,7 @@ const SwiperTidur = () => {
                   pada puterinya, Fatimah dan istri tercintanya, ‘Aisyah
                   radhiyallahu ‘anhuma.
                   <p className="text-xs md:text-sm text-center font-lato py-2">
-                    HR. Bukhari no. 3705 dan Muslim no. 2727
+                    HR. Bukhari no. 3705
                   </p>
                 </p>
               </div>

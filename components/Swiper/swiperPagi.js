@@ -181,7 +181,7 @@ const Swipagi = () => {
                   dan petang, maka segala sesuatu akan dicukupkan untuknya.
                 </p>
                 <p className="text-xs md:text-sm font-lato py-2">
-                  HR. Abu Daud no. 5082, Tirmidzi no. 3575
+                  HR. Abu Daud no. 5082
                 </p>
               </div>
             </div>
