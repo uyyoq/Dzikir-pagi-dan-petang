@@ -36,6 +36,9 @@ module.exports = {
         "sans-serif",
         "Montserrat",
         "Marck Script",
+        "Roboto Mono",
+        "Josefin Sans",
+        ["Amiri"
       ],
     },
 
